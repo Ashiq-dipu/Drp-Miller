@@ -1,0 +1,425 @@
+{
+  "title": "Mainstage — Event Summit Website: Tech Conference, Speakers, Tickets",
+  "headings": [
+    {
+      "headingTag": "H1",
+      "headingText": "Three days on the main stage with the people who build what’s next.",
+      "fontSize": "44px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-1gpvj6v",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "Three days. One room.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-cgk",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "Sixty-four people worth the flight.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-bgfln4",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Shipping weekly with four hundred engineers",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "What the database was trying to tell you",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Agents in production: one year of incident reports",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "The pricing page is the product",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Design systems after the model writes the code",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Latency budgets for things that move",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Roadmaps are a rumour: planning in public",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Your supply chain has a supply chain",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mssp",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "What’s on, and when.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-1irbpad",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Shipping weekly with four hundred engineers",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mssc",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "What the database was trying to tell you",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mssc",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Lunch on the riverfront",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "color(srgb 0.347843 0.321961 0.285098)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mssc",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Agents in production: one year of incident reports",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mssc",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Evals are the new unit tests",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mssc",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "What works once the demo is over.",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgb(11, 10, 9)",
+      "parentClass": "ms ms-sec ms-dark mstr is-pin",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "Pick a lane. Or don’t.",
+      "fontSize": "52px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-1f9kqgi",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "Small rooms, real work.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-1vwej1j",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Build an eval suite in an afternoon",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mswo is-slide",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Reading query plans, hands on",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mswo is-slide",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Pricing page teardown",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mswo is-slide",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Motion studies for product teams",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(244, 238, 227)",
+      "parentClass": "ms ms-sec mswo is-slide",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "Pavilhão do Rio, on the water.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-78tlxk",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "Three passes. One summit.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-2cnd4a",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "General",
+      "fontSize": "31.68px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(255, 90, 31)",
+      "parentClass": "ms ms-sec ms-band msti is-drive msti-n3",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "Pro",
+      "fontSize": "31.68px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(255, 90, 31)",
+      "parentClass": "ms ms-sec ms-band msti is-drive msti-n3",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "VIP",
+      "fontSize": "31.68px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgb(255, 90, 31)",
+      "parentClass": "ms ms-sec ms-band msti is-drive msti-n3",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "The companies in the room.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-1axloi1",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "It got loud.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-14b0xch",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "Before you book.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-jdhtcp",
+      "parentTag": "DIV"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "01 What does a pass include?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "02 Can I get a refund or transfer my pass?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "03 Do you offer group prices and invoices?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "04 Will the talks be recorded?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "05 How do workshops work?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "06 What language are the talks in?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "07 How do I get to the venue?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "08 Are there hotel deals for attendees?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H3",
+      "headingText": "09 How can my company sponsor Mainstage?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "ms ms-sec msfq",
+      "parentTag": "SECTION"
+    },
+    {
+      "headingTag": "H2",
+      "headingText": "See you in Lisbon.",
+      "fontSize": "144px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "parentBg": "rgba(0, 0, 0, 0)",
+      "parentClass": "framer-oypmra",
+      "parentTag": "DIV"
+    }
+  ]
+}

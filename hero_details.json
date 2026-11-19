@@ -1,0 +1,266 @@
+{
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/oPFpzaMWN4NDaSkVZ2pm5QF60I.webp?scale-down-to=2048",
+      "width": 1498,
+      "height": 936,
+      "alt": "",
+      "top": -33,
+      "left": -60
+    },
+    {
+      "src": "https://framerusercontent.com/images/oaJqh2p6xHtk94e6lh4t7yfqnws.webp?scale-down-to=1024",
+      "width": 450,
+      "height": 563,
+      "alt": "Hallway, day two",
+      "top": 1168,
+      "left": 580
+    },
+    {
+      "src": "https://framerusercontent.com/images/jZ0niiZcROVMj9PeuaywnNots3w.webp?scale-down-to=1024",
+      "width": 322,
+      "height": 214,
+      "alt": "Main hall, 09:30",
+      "top": 1163,
+      "left": 1062
+    },
+    {
+      "src": "https://framerusercontent.com/images/AS4Cw0y7OAF7YwKRABmbwZ8kk.webp?scale-down-to=512",
+      "width": 265,
+      "height": 332,
+      "alt": "Open mic",
+      "top": 1557,
+      "left": 1079
+    },
+    {
+      "src": "https://framerusercontent.com/images/oaJqh2p6xHtk94e6lh4t7yfqnws.webp?scale-down-to=1024",
+      "width": 1400,
+      "height": 781,
+      "alt": "Hallway, day two",
+      "top": 0,
+      "left": 0
+    },
+    {
+      "src": "https://framerusercontent.com/images/jZ0niiZcROVMj9PeuaywnNots3w.webp?scale-down-to=1024",
+      "width": 512,
+      "height": 382,
+      "alt": "Main hall, 09:30",
+      "top": 0,
+      "left": 0
+    },
+    {
+      "src": "https://framerusercontent.com/images/AS4Cw0y7OAF7YwKRABmbwZ8kk.webp?scale-down-to=512",
+      "width": 512,
+      "height": 286,
+      "alt": "Open mic",
+      "top": 0,
+      "left": 0
+    },
+    {
+      "src": "https://framerusercontent.com/images/DEBSQeBOCdznO1u1cRzLzcmasM.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Inês Carvalho",
+      "top": 2543,
+      "left": 56
+    },
+    {
+      "src": "https://framerusercontent.com/images/NmkpUVq1OjshWo3MRYHXbDUFJGU.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Tobias Lindqvist",
+      "top": 2543,
+      "left": 393
+    },
+    {
+      "src": "https://framerusercontent.com/images/371lVaDSMdqEsHSlTLGeKl7650.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Amara Okafor",
+      "top": 2543,
+      "left": 729
+    },
+    {
+      "src": "https://framerusercontent.com/images/gv5mT4bQ8T1n4dyt3U0G2Gfwldw.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Daniel Reyes",
+      "top": 2543,
+      "left": 1066
+    },
+    {
+      "src": "https://framerusercontent.com/images/bD3IjFulEA5KGH9dldm1PafOjog.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Priya Raman",
+      "top": 2948,
+      "left": 56
+    },
+    {
+      "src": "https://framerusercontent.com/images/HxGAwVNM9ZaaBu6N5yRyWcYxYQM.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Mei Tanaka",
+      "top": 2948,
+      "left": 393
+    },
+    {
+      "src": "https://framerusercontent.com/images/JXNHKwjRlDqIdZuxCrbzCaz9Td8.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Jonas Weber",
+      "top": 2948,
+      "left": 729
+    },
+    {
+      "src": "https://framerusercontent.com/images/8jkfueKXIFT9daAnH9YTyNySoBE.webp?scale-down-to=512",
+      "width": 319,
+      "height": 398,
+      "alt": "Leila Haddad",
+      "top": 2948,
+      "left": 1066
+    }
+  ],
+  "firstSections": [
+    {
+      "tag": "DIV",
+      "className": "framer-9nvs23",
+      "text": "64 SPEAKERS 1,800 SEATS DOORS IN 202 DAYS  MAINSTAGE TICKETS  TECH CONFERENCE & SUMMIT · 18–20 MAY 2",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "flex",
+      "width": 1440,
+      "height": 900,
+      "top": 0,
+      "left": 0
+    },
+    {
+      "tag": "DIV",
+      "className": "framer-4byc5f-container",
+      "text": "64 SPEAKERS 1,800 SEATS DOORS IN 202 DAYS  MAINSTAGE TICKETS",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "block",
+      "width": 1440,
+      "height": 900,
+      "top": 0,
+      "left": 0
+    },
+    {
+      "tag": "SECTION",
+      "className": "ms ms-dark msh is-go is-live",
+      "text": "64 SPEAKERS 1,800 SEATS DOORS IN 202 DAYS  MAINSTAGE TICKETS",
+      "bg": "rgb(11, 10, 9)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "display": "block",
+      "width": 1440,
+      "height": 900,
+      "top": 0,
+      "left": 0
+    },
+    {
+      "tag": "DIV",
+      "className": "framer-13xre1f",
+      "text": "TECH CONFERENCE & SUMMIT · 18–20 MAY 2027 · LISBON  Three days on the main stage with the people who",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "flex",
+      "width": 520,
+      "height": 247,
+      "top": 150,
+      "left": 48
+    },
+    {
+      "tag": "DIV",
+      "className": "framer-1vhsw02",
+      "text": "01 · THE SUMMIT  Three days. One room.  Mainstage is a single-hall tech conference: every talk on on",
+      "bg": "rgb(244, 238, 227)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "flex",
+      "width": 1440,
+      "height": 1234,
+      "top": 900,
+      "left": 0
+    },
+    {
+      "tag": "DIV",
+      "className": "framer-1yhazj7",
+      "text": "01 · THE SUMMIT  Three days. One room.  Mainstage is a single-hall tech conference: every talk on on",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "flex",
+      "width": 1440,
+      "height": 756,
+      "top": 1044,
+      "left": 0
+    },
+    {
+      "tag": "DIV",
+      "className": "framer-19hj9a4",
+      "text": "01 · THE SUMMIT  Three days. One room.  Mainstage is a single-hall tech conference: every talk on on",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "flex",
+      "width": 452,
+      "height": 385,
+      "top": 1229,
+      "left": 56
+    },
+    {
+      "tag": "DIV",
+      "className": "framer-9c7cn6-container",
+      "text": "HALLWAY, DAY TWO MAIN HALL, 09:30 OPEN MIC",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "block",
+      "width": 804,
+      "height": 756,
+      "top": 1044,
+      "left": 580
+    },
+    {
+      "tag": "SECTION",
+      "className": "ms ms-sec msin",
+      "text": "HALLWAY, DAY TWO MAIN HALL, 09:30 OPEN MIC",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(11, 10, 9)",
+      "border": "0px none rgb(11, 10, 9)",
+      "borderRadius": "0px",
+      "display": "block",
+      "width": 804,
+      "height": 756,
+      "top": 1044,
+      "left": 580
+    },
+    {
+      "tag": "DIV",
+      "className": "framer-vtx1r2",
+      "text": "02 · SPEAKERS  Sixty-four people worth the flight.  All speakers  Inês Carvalho NORTHWIND DAY 1 · 09",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "display": "flex",
+      "width": 1440,
+      "height": 1378,
+      "top": 2134,
+      "left": 0
+    }
+  ]
+}

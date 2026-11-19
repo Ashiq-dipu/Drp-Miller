@@ -1,0 +1,438 @@
+{
+  "bodyBg": "rgb(11, 10, 9)",
+  "bodyColor": "rgb(0, 0, 0)",
+  "navText": "Speakers\n\nSchedule\n\nWorkshops\n\nVenue\n\nSponsors",
+  "mainHeadings": [
+    {
+      "tag": "H1",
+      "text": "Three days on the main stage with the people who build what’s next.",
+      "fontSize": "44px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "Three days.\nOne room.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "Sixty-four people\nworth the flight.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Shipping weekly with four hundred engineers",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "What the database was trying to tell you",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Agents in production: one year of incident reports",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "The pricing page is the product",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Design systems after the model writes the code",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Latency budgets for things that move",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Roadmaps are a rumour: planning in public",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Your supply chain has a supply chain",
+      "fontSize": "19.44px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "What’s on,\nand when.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Shipping weekly with four hundred engineers",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "What the database was trying to tell you",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Lunch on the riverfront",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "color(srgb 0.347843 0.321961 0.285098)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Agents in production: one year of incident reports",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Evals are the new unit tests",
+      "fontSize": "22.32px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "What works once the demo is over.",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "Pick a lane.\nOr don’t.",
+      "fontSize": "52px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "Small rooms,\nreal work.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Build an eval suite in an afternoon",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Reading query plans, hands on",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Pricing page teardown",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Motion studies for product teams",
+      "fontSize": "28.8px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "Pavilhão do Rio,\non the water.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "Three passes.\nOne summit.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "General",
+      "fontSize": "31.68px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "Pro",
+      "fontSize": "31.68px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "VIP",
+      "fontSize": "31.68px",
+      "fontWeight": "760",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "The companies\nin the room.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "It got\nloud.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "Before you\nbook.",
+      "fontSize": "62px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "01\nWhat does a pass include?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "02\nCan I get a refund or transfer my pass?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "03\nDo you offer group prices and invoices?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "04\nWill the talks be recorded?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "05\nHow do workshops work?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "06\nWhat language are the talks in?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "07\nHow do I get to the venue?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "08\nAre there hotel deals for attendees?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H3",
+      "text": "09\nHow can my company sponsor Mainstage?",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(11, 10, 9)",
+      "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif"
+    },
+    {
+      "tag": "H2",
+      "text": "See you in\nLisbon.",
+      "fontSize": "144px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif"
+    }
+  ],
+  "allButtons": [
+    "Mainstage\n\n27",
+    "Speakers",
+    "Schedule",
+    "Workshops",
+    "Venue",
+    "Sponsors",
+    "Get tickets",
+    "Get tickets",
+    "Watch last year",
+    "About Mainstage",
+    "About Mainstage",
+    "About Mainstage",
+    "All speakers",
+    "All speakers",
+    "Full schedule",
+    "Full schedule",
+    "Day 1\nTUE 18 MAY",
+    "Day 2\nWED 19 MAY",
+    "Day 3\nTHU 20 MAY",
+    "All tracks",
+    "AI & Agents",
+    "Engineering",
+    "Product",
+    "Design",
+    "See all 14 sessions",
+    "T1\nAI & Agents",
+    "T2\nEngineering",
+    "T3\nProduct",
+    "T4\nDesign",
+    "15:30\nEvals are the new unit tests",
+    "11:30\nSmall models, big bills avoided",
+    "See this track",
+    "All workshops",
+    "All workshops",
+    "Venue & travel",
+    "Hotels & getting there",
+    "Venue & travel",
+    "Hotels & getting there",
+    "Get this pass",
+    "Get this pass",
+    "Get this pass",
+    "Group of 5+?",
+    "Student?",
+    "Need an invoice?",
+    "Become a sponsor",
+    "Become a sponsor",
+    "Past editions",
+    "Past editions",
+    "Watch the aftermovie\n2:14",
+    "hello@mainstage.events",
+    "Contact us",
+    "hello@mainstage.events",
+    "Contact us",
+    "ALL\n9",
+    "TICKETS\n3",
+    "PROGRAMME\n3",
+    "VENUE & TRAVEL\n2",
+    "SPONSORS\n1",
+    "01\nWhat does a pass include?",
+    "04\nWill the talks be recorded?",
+    "05\nHow do workshops work?",
+    "06\nWhat language are the talks in?",
+    "07\nHow do I get to the venue?",
+    "08\nAre there hotel deals for attendees?",
+    "Get tickets",
+    "See the lineup",
+    "Get tickets",
+    "See the lineup",
+    "Get tickets",
+    "See the lineup",
+    "hello@mainstage.events",
+    "Speakers",
+    "Schedule",
+    "Workshops",
+    "Tickets",
+    "Venue",
+    "Travel",
+    "FAQ",
+    "Code of conduct",
+    "About",
+    "Sponsors",
+    "Past editions",
+    "News",
+    "Contact",
+    "Privacy",
+    "Terms",
+    "Cookies",
+    "Sign up",
+    "X",
+    "LINKEDIN",
+    "YOUTUBE",
+    "INSTAGRAM",
+    "MADE BY SOLOFOUNDRY"
+  ]
+}

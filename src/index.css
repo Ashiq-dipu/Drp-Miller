@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    background-color: #0B0A09;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+  }
+}
+
+.font-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Framer Mainstage Utilities */
+.bg-night {
+  background-color: #0B0A09;
+}
+
+.bg-bone {
+  background-color: #F4EEE3;
+  color: #0B0A09;
+}
+
+.text-bone {
+  color: #F4EEE3;
+}
+
+.text-night {
+  color: #0B0A09;
+}
+
+.font-mono-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+/* Custom Minimal Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0A09;
+}
+::-webkit-scrollbar-thumb {
+  background: #33312E;
+  border-radius: 2px;
+}

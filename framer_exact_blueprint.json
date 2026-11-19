@@ -1,0 +1,1928 @@
+{
+  "title": "Mainstage — Event Summit Website: Tech Conference, Speakers, Tickets",
+  "bodyBg": "rgb(11, 10, 9)",
+  "headings": [
+    {
+      "tag": "A",
+      "text": "Mainstage\n\n27",
+      "top": 28,
+      "styles": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "6px 0px 8px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(0, 0, 238)",
+        "display": "flex",
+        "gap": "4px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Mainstage",
+      "top": 36,
+      "styles": {
+        "fontFamily": "\"Archivo Wide Regular\", \"Archivo Wide Regular Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "-0.2px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "27",
+      "top": 34,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", \"IBM Plex Mono Placeholder\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "12px",
+        "letterSpacing": "0.48px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Speakers",
+      "top": 26,
+      "styles": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px 13px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(0, 0, 238)",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Speakers",
+      "top": 39,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Schedule",
+      "top": 26,
+      "styles": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px 13px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(0, 0, 238)",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Schedule",
+      "top": 39,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Workshops",
+      "top": 26,
+      "styles": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px 13px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(0, 0, 238)",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Workshops",
+      "top": 39,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Venue",
+      "top": 26,
+      "styles": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px 13px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(0, 0, 238)",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Venue",
+      "top": 39,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Sponsors",
+      "top": 26,
+      "styles": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px 13px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(0, 0, 238)",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Sponsors",
+      "top": 39,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Get tickets",
+      "top": 39,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "64 SPEAKERS",
+      "top": 160,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "14.4px",
+        "letterSpacing": "1.68px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "1,800 SEATS",
+      "top": 193,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "14.4px",
+        "letterSpacing": "1.68px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "DOORS IN 202 DAYS",
+      "top": 227,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "14.4px",
+        "letterSpacing": "1.68px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "TICKETS",
+      "top": 34,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "1.44px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "padding": "5px 9px",
+        "margin": "0px",
+        "borderRadius": "999px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "TECH CONFERENCE & SUMMIT · 18–20 MAY 2027 · LISBON",
+      "top": 150,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", \"IBM Plex Mono Placeholder\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "18px",
+        "letterSpacing": "1.68px",
+        "color": "rgb(255, 179, 152)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 179, 152)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "H1",
+      "text": "Three days on the main stage with the people who build what’s next.",
+      "top": 186,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "lineHeight": "46.2px",
+        "letterSpacing": "-0.88px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Get tickets",
+      "top": 367,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Watch last year",
+      "top": 367,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "01 · THE SUMMIT",
+      "top": 1239,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", \"IBM Plex Mono Placeholder\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "18px",
+        "letterSpacing": "1.68px",
+        "color": "rgb(182, 66, 24)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(182, 66, 24)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Three",
+      "top": 1313,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "days.",
+      "top": 1313,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "One room.",
+      "top": 1332,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(182, 66, 24)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(182, 66, 24)",
+        "display": "inline",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "One",
+      "top": 1375,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(182, 66, 24)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(182, 66, 24)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "room.",
+      "top": 1375,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(182, 66, 24)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(182, 66, 24)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "About Mainstage",
+      "top": 1605,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "64",
+      "top": 1935,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "64",
+      "top": 1931,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "inline",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "speakers on one stage",
+      "top": 2020,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 0.347843 0.321961 0.285098)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 0.347843 0.321961 0.285098)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "225px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "4",
+      "top": 1935,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "4",
+      "top": 1931,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "inline",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "tracks from AI to design",
+      "top": 2020,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 0.347843 0.321961 0.285098)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 0.347843 0.321961 0.285098)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "225px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "12",
+      "top": 1935,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "12",
+      "top": 1931,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "inline",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "hands-on workshops",
+      "top": 2020,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 0.347843 0.321961 0.285098)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 0.347843 0.321961 0.285098)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "225px"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "1,800",
+      "top": 1935,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "1,800",
+      "top": 1931,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "74.88px",
+        "fontWeight": "760",
+        "lineHeight": "74.88px",
+        "letterSpacing": "-2.6208px",
+        "color": "rgb(11, 10, 9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(11, 10, 9)",
+        "display": "inline",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "seats, one hall",
+      "top": 2020,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21.75px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 0.347843 0.321961 0.285098)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 0.347843 0.321961 0.285098)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "225px"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "02 · SPEAKERS",
+      "top": 2288,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", \"IBM Plex Mono Placeholder\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "18px",
+        "letterSpacing": "1.68px",
+        "color": "rgb(255, 179, 152)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 179, 152)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Sixty-four",
+      "top": 2360,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "people",
+      "top": 2360,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "worth",
+      "top": 2422,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "the",
+      "top": 2422,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "flight.",
+      "top": 2422,
+      "styles": {
+        "fontFamily": "\"Archivo Stage Regular\", \"Archivo Stage Regular Placeholder\", sans-serif",
+        "fontSize": "62px",
+        "fontWeight": "400",
+        "lineHeight": "62px",
+        "letterSpacing": "-1.86px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "inline-block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "All speakers",
+      "top": 2435,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", \"Schibsted Grotesk Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Inês Carvalho\nNORTHWIND",
+      "top": 2821,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "56px 18px 18px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "flex",
+        "gap": "5px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Inês Carvalho",
+      "top": 2877,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "760",
+        "lineHeight": "23.76px",
+        "letterSpacing": "-0.432px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "NORTHWIND",
+      "top": 2906,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "color(srgb 1 1 1 / 0.82)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.82)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "DAY 1 · 09:30",
+      "top": 2962,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "flex",
+        "gap": "8px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "Shipping weekly with four hundred engineers",
+      "top": 2989,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "19.44px",
+        "fontWeight": "760",
+        "lineHeight": "22.9392px",
+        "letterSpacing": "-0.3888px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Inês Carvalho · VP Engineering · Northwind",
+      "top": 3043,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "18.2px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 1 1 1 / 0.78)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.78)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Tobias Lindqvist\nHALDEN LABS",
+      "top": 2821,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "56px 18px 18px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "flex",
+        "gap": "5px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Tobias Lindqvist",
+      "top": 2877,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "760",
+        "lineHeight": "23.76px",
+        "letterSpacing": "-0.432px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "HALDEN LABS",
+      "top": 2906,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "color(srgb 1 1 1 / 0.82)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.82)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "DAY 1 · 11:00",
+      "top": 2962,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "flex",
+        "gap": "8px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "What the database was trying to tell you",
+      "top": 2989,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "19.44px",
+        "fontWeight": "760",
+        "lineHeight": "22.9392px",
+        "letterSpacing": "-0.3888px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Tobias Lindqvist · Staff Engineer · Halden Labs",
+      "top": 3043,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "18.2px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 1 1 1 / 0.78)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.78)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Amara Okafor\nTESSERA",
+      "top": 2821,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "56px 18px 18px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "flex",
+        "gap": "5px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Amara Okafor",
+      "top": 2877,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "760",
+        "lineHeight": "23.76px",
+        "letterSpacing": "-0.432px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "TESSERA",
+      "top": 2906,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "color(srgb 1 1 1 / 0.82)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.82)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "DAY 1 · 14:15",
+      "top": 2962,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "flex",
+        "gap": "8px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "Agents in production: one year of incident reports",
+      "top": 2989,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "19.44px",
+        "fontWeight": "760",
+        "lineHeight": "22.9392px",
+        "letterSpacing": "-0.3888px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Amara Okafor · Head of AI · Tessera",
+      "top": 3043,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "18.2px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 1 1 1 / 0.78)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.78)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Daniel Reyes\nPLAINSIGHT",
+      "top": 2821,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "56px 18px 18px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "flex",
+        "gap": "5px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Daniel Reyes",
+      "top": 2877,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "760",
+        "lineHeight": "23.76px",
+        "letterSpacing": "-0.432px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "PLAINSIGHT",
+      "top": 2906,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "color(srgb 1 1 1 / 0.82)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.82)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "DAY 2 · 09:30",
+      "top": 2962,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "flex",
+        "gap": "8px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "The pricing page is the product",
+      "top": 2989,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "19.44px",
+        "fontWeight": "760",
+        "lineHeight": "22.9392px",
+        "letterSpacing": "-0.3888px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Daniel Reyes · Founder · Plainsight",
+      "top": 3043,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "18.2px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 1 1 1 / 0.78)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.78)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Priya Raman\nFIELDNOTE",
+      "top": 3225,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "56px 18px 18px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "flex",
+        "gap": "5px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Priya Raman",
+      "top": 3281,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "760",
+        "lineHeight": "23.76px",
+        "letterSpacing": "-0.432px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "FIELDNOTE",
+      "top": 3310,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "color(srgb 1 1 1 / 0.82)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.82)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "DAY 2 · 11:45",
+      "top": 3366,
+      "styles": {
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "1.44px",
+        "color": "rgb(255, 90, 31)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 90, 31)",
+        "display": "flex",
+        "gap": "8px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "H3",
+      "text": "Design systems after the model writes the code",
+      "top": 3393,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "19.44px",
+        "fontWeight": "760",
+        "lineHeight": "22.9392px",
+        "letterSpacing": "-0.3888px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Priya Raman · Design Director · Fieldnote",
+      "top": 3447,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "18.2px",
+        "letterSpacing": "normal",
+        "color": "color(srgb 1 1 1 / 0.78)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none color(srgb 1 1 1 / 0.78)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Mei Tanaka\nKUMO ROBOTICS",
+      "top": 3225,
+      "styles": {
+        "fontFamily": "\"Schibsted Grotesk\", Inter, system-ui, -apple-system, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "56px 18px 18px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "flex",
+        "gap": "5px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "text": "Mei Tanaka",
+      "top": 3281,
+      "styles": {
+        "fontFamily": "Archivo, \"Arial Black\", Arial, Helvetica, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "760",
+        "lineHeight": "23.76px",
+        "letterSpacing": "-0.432px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none"
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/oPFpzaMWN4NDaSkVZ2pm5QF60I.webp?scale-down-to=2048",
+      "alt": "",
+      "width": 1550,
+      "height": 969,
+      "top": -32,
+      "aspectRatio": "1.60"
+    },
+    {
+      "src": "https://framerusercontent.com/images/oaJqh2p6xHtk94e6lh4t7yfqnws.webp?scale-down-to=1024",
+      "alt": "Hallway, day two",
+      "width": 450,
+      "height": 563,
+      "top": 1168,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/jZ0niiZcROVMj9PeuaywnNots3w.webp?scale-down-to=1024",
+      "alt": "Main hall, 09:30",
+      "width": 322,
+      "height": 214,
+      "top": 1163,
+      "aspectRatio": "1.50"
+    },
+    {
+      "src": "https://framerusercontent.com/images/AS4Cw0y7OAF7YwKRABmbwZ8kk.webp?scale-down-to=512",
+      "alt": "Open mic",
+      "width": 265,
+      "height": 332,
+      "top": 1557,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/oaJqh2p6xHtk94e6lh4t7yfqnws.webp?scale-down-to=1024",
+      "alt": "Hallway, day two",
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "aspectRatio": "0.00"
+    },
+    {
+      "src": "https://framerusercontent.com/images/jZ0niiZcROVMj9PeuaywnNots3w.webp?scale-down-to=1024",
+      "alt": "Main hall, 09:30",
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "aspectRatio": "0.00"
+    },
+    {
+      "src": "https://framerusercontent.com/images/AS4Cw0y7OAF7YwKRABmbwZ8kk.webp?scale-down-to=512",
+      "alt": "Open mic",
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "aspectRatio": "0.00"
+    },
+    {
+      "src": "https://framerusercontent.com/images/DEBSQeBOCdznO1u1cRzLzcmasM.webp?scale-down-to=512",
+      "alt": "Inês Carvalho",
+      "width": 319,
+      "height": 398,
+      "top": 2543,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/NmkpUVq1OjshWo3MRYHXbDUFJGU.webp?scale-down-to=512",
+      "alt": "Tobias Lindqvist",
+      "width": 319,
+      "height": 398,
+      "top": 2543,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/371lVaDSMdqEsHSlTLGeKl7650.webp?scale-down-to=512",
+      "alt": "Amara Okafor",
+      "width": 319,
+      "height": 398,
+      "top": 2543,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/gv5mT4bQ8T1n4dyt3U0G2Gfwldw.webp?scale-down-to=512",
+      "alt": "Daniel Reyes",
+      "width": 319,
+      "height": 398,
+      "top": 2543,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/bD3IjFulEA5KGH9dldm1PafOjog.webp?scale-down-to=512",
+      "alt": "Priya Raman",
+      "width": 319,
+      "height": 398,
+      "top": 2948,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/HxGAwVNM9ZaaBu6N5yRyWcYxYQM.webp?scale-down-to=512",
+      "alt": "Mei Tanaka",
+      "width": 319,
+      "height": 398,
+      "top": 2948,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/JXNHKwjRlDqIdZuxCrbzCaz9Td8.webp?scale-down-to=512",
+      "alt": "Jonas Weber",
+      "width": 319,
+      "height": 398,
+      "top": 2948,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/8jkfueKXIFT9daAnH9YTyNySoBE.webp?scale-down-to=512",
+      "alt": "Leila Haddad",
+      "width": 319,
+      "height": 398,
+      "top": 2948,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/DEBSQeBOCdznO1u1cRzLzcmasM.webp?scale-down-to=512",
+      "alt": "",
+      "width": 28,
+      "height": 28,
+      "top": 4070,
+      "aspectRatio": "1.00"
+    },
+    {
+      "src": "https://framerusercontent.com/images/NmkpUVq1OjshWo3MRYHXbDUFJGU.webp?scale-down-to=512",
+      "alt": "",
+      "width": 28,
+      "height": 28,
+      "top": 4174,
+      "aspectRatio": "1.00"
+    },
+    {
+      "src": "https://framerusercontent.com/images/371lVaDSMdqEsHSlTLGeKl7650.webp?scale-down-to=512",
+      "alt": "",
+      "width": 28,
+      "height": 28,
+      "top": 4399,
+      "aspectRatio": "1.00"
+    },
+    {
+      "src": "https://framerusercontent.com/images/wTEJQWR3N9EVhTU88mXAPHBq5g4.webp?scale-down-to=512",
+      "alt": "",
+      "width": 28,
+      "height": 28,
+      "top": 4503,
+      "aspectRatio": "1.00"
+    },
+    {
+      "src": "https://framerusercontent.com/images/DEBSQeBOCdznO1u1cRzLzcmasM.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 461,
+      "height": 576,
+      "top": 4025,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/NmkpUVq1OjshWo3MRYHXbDUFJGU.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 461,
+      "height": 576,
+      "top": 4039,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/dFeRgg3zGJcfBfJo4NsBS6rCbN0.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 461,
+      "height": 576,
+      "top": 4039,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/371lVaDSMdqEsHSlTLGeKl7650.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 461,
+      "height": 576,
+      "top": 4039,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/wTEJQWR3N9EVhTU88mXAPHBq5g4.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 461,
+      "height": 576,
+      "top": 4039,
+      "aspectRatio": "0.80"
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y3nhIu7E3c4ZGAcfwMjPjE3u7Q.webp?scale-down-to=1024",
+      "alt": "AI & Agents",
+      "width": 485,
+      "height": 684,
+      "top": 4815,
+      "aspectRatio": "0.71"
+    },
+    {
+      "src": "https://framerusercontent.com/images/mRQ9DNBmIXKuSBHwA7ozP1M8FHc.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 485,
+      "height": 684,
+      "top": 4815,
+      "aspectRatio": "0.71"
+    },
+    {
+      "src": "https://framerusercontent.com/images/2cXxgsEvCzhpcQNrqBZLut9Iuk.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 485,
+      "height": 684,
+      "top": 4815,
+      "aspectRatio": "0.71"
+    },
+    {
+      "src": "https://framerusercontent.com/images/x7HJbXkyp2obobP3ORbr0NqQ0.webp?scale-down-to=1024",
+      "alt": "",
+      "width": 485,
+      "height": 684,
+      "top": 4815,
+      "aspectRatio": "0.71"
+    },
+    {
+      "src": "https://framerusercontent.com/images/Od0sLPh3UNsr4tc9mwj2XeBTyb8.webp?scale-down-to=2048",
+      "alt": "Build an eval suite in an afternoon",
+      "width": 316,
+      "height": 210,
+      "top": 8113,
+      "aspectRatio": "1.50"
+    },
+    {
+      "src": "https://framerusercontent.com/images/wTEJQWR3N9EVhTU88mXAPHBq5g4.webp?scale-down-to=512",
+      "alt": "",
+      "width": 36,
+      "height": 36,
+      "top": 8527,
+      "aspectRatio": "1.00"
+    }
+  ]
+}

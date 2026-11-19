@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "HEADER",
+    "id": "",
+    "className": "fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-transparent py-5 sm:py-6",
+    "rect": {},
+    "bg": "rgba(0, 0, 0, 0)",
+    "text": "DR. PAUL MILLER\n'26\nAbout\nSessions\nStage Reel\nLibrary\nPackages\nFAQ\nBook Dr. Miller"
+  },
+  {
+    "tag": "SECTION",
+    "id": "",
+    "className": "relative w-full min-h-[100svh] bg-[#0B0A09] text-white overflow-hidden flex flex-col justify-between pt-32 pb-8",
+    "rect": {},
+    "bg": "rgb(11, 10, 9)",
+    "text": "KEYNOTE SPEAKER · 6X AUTHOR · FORMER URBAN CEO\nTransforming organizations and leaders from the gutte"
+  },
+  {
+    "tag": "SECTION",
+    "id": "about",
+    "className": "py-24 sm:py-32 bg-[#F4EEE3] text-[#0B0A09] relative",
+    "rect": {},
+    "bg": "rgb(244, 238, 227)",
+    "text": "01 · THE SPEAKER\nOne room.\nTotal transformation.\n\nDr. Paul Miller delivers keynote experiences where"
+  },
+  {
+    "tag": "SECTION",
+    "id": "sessions",
+    "className": "py-24 sm:py-32 bg-[#0B0A09] text-white border-t border-white/10 relative",
+    "rect": {},
+    "bg": "rgb(11, 10, 9)",
+    "text": "02 · SESSIONS & KEYNOTES\nFive keynotes\nworth the room.\nAVAILABLE IN 45–90 MIN SESSIONS\nMAINSTAGE KEY"
+  },
+  {
+    "tag": "SECTION",
+    "id": "reel",
+    "className": "py-24 sm:py-32 bg-[#0B0A09] text-white border-t border-white/10",
+    "rect": {},
+    "bg": "rgb(11, 10, 9)",
+    "text": "03 · STAGE REEL & VIDEO\nExperience the energy\nin the room.\nLIVE ARENA CLIPS & TEDX\nFLAGSHIP KEYNOTE\n"
+  },
+  {
+    "tag": "SECTION",
+    "id": "books",
+    "className": "py-24 sm:py-32 bg-[#F4EEE3] text-[#0B0A09] relative",
+    "rect": {},
+    "bg": "rgb(244, 238, 227)",
+    "text": "04 · PUBLISHED LIBRARY\nSix published works.\nOne mission.\nRead by tens of thousands of educators, exe"
+  },
+  {
+    "tag": "SECTION",
+    "id": "packages",
+    "className": "py-24 sm:py-32 bg-[#0B0A09] text-white border-t border-white/10",
+    "rect": {},
+    "bg": "rgb(11, 10, 9)",
+    "text": "05 · ENGAGEMENT PACKAGES\nThree packages.\nOne transformation.\nCALENDAR ACTIVE FOR 2026–2027\nPASS 01\nC"
+  },
+  {
+    "tag": "SECTION",
+    "id": "faq",
+    "className": "py-24 sm:py-32 bg-[#F4EEE3] text-[#0B0A09] border-t border-[#0B0A09]/15",
+    "rect": {},
+    "bg": "rgb(244, 238, 227)",
+    "text": "06 · MEETING PLANNER FAQ\nBefore you\nbook.\nEverything meeting planners, conference committees, and ex"
+  },
+  {
+    "tag": "FOOTER",
+    "id": "",
+    "className": "bg-[#0B0A09] text-white/60 border-t border-white/10 pt-24 pb-16",
+    "rect": {},
+    "bg": "rgb(11, 10, 9)",
+    "text": "MAINSTAGE 2026–2027\nBring transformation\nto your room.\nINQUIRE SPEAKING DATES\nDR. PAUL MILLER\n\nKeyno"
+  }
+]
