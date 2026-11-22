@@ -32,9 +32,8 @@ export default function ShortsPage({ onPlayVideo }) {
       
       {/* ========================================================
           1. CINEMATIC SHORTS HERO (BLACK BACKGROUND)
-          High-Fashion Oprah/Mainstage Vertical Cinema Architecture
       ======================================================== */}
-      <section id="watch" className="relative w-full pt-32 pb-12 sm:pt-36 sm:pb-16 flex flex-col justify-center overflow-hidden bg-[#0B0A09] text-white">
+      <section id="watch" className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
         <div id="speeches" className="absolute top-0 left-0" />
         
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
@@ -43,71 +42,24 @@ export default function ShortsPage({ onPlayVideo }) {
           title="Dr. Paul Miller Shorts & Wisdom Reel" 
         />
 
-        {/* Central Stage: Split Headline with 9:16 Vertical Reel */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Stage: Title, Subtitle, Buttons & Filters at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
           
-          {/* Main Visual Composition (WISDOM [CUTOUT] SHORTS) */}
-          <div className="relative w-full flex items-center justify-center">
-            
-            {/* Desktop Left Text: "WISDOM" */}
-            <div className="hidden lg:block flex-1 text-right pr-4 lg:pr-8 xl:pr-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight text-white leading-none block whitespace-nowrap drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Wisdom
-              </span>
-            </div>
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Wisdom Shorts
+          </h1>
 
-            {/* High-Resolution Cutout of Dr. Paul Miller */}
-            <div 
-              onClick={() => onPlayVideo('7jXuESXmLlE')}
-              className="relative z-20 shrink-0 mx-auto cursor-pointer group"
-            >
-              <img 
-                src="/images/hero-cutout.png" 
-                alt="Dr. Paul Miller Raw Wisdom" 
-                className="h-[200px] sm:h-[240px] md:h-[270px] lg:h-[300px] w-auto object-contain mx-auto drop-shadow-[0_25px_50px_rgba(0,0,0,0.95)] filter contrast-105 group-hover:scale-105 transition-transform duration-500"
-                loading="eager"
-              />
-              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-[#2D0891]/90 group-hover:bg-[#3D0CB8] backdrop-blur-md text-white px-3.5 py-1 rounded-full font-mono text-[9px] uppercase font-bold tracking-wider shadow-2xl flex items-center gap-1.5 border border-white/20 whitespace-nowrap transition-colors">
-                <Play className="w-2.5 h-2.5 fill-current text-white" />
-                <span>Play 60s Reel</span>
-              </div>
-            </div>
+          {/* Subtitle */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            ARENA TURNING POINTS · MORNING MENTAL CONDITIONING · UNFILTERED LEADERSHIP PROTOCOLS
+          </p>
 
-            {/* Desktop Right Text: "SHORTS" */}
-            <div className="hidden lg:block flex-1 text-left pl-4 lg:pl-8 xl:pl-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight text-white leading-none block whitespace-nowrap drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Shorts
-              </span>
-            </div>
-
-          </div>
-
-          {/* Mobile/Tablet Centered Name */}
-          <div className="block lg:hidden text-center mt-2 select-none">
-            <h1 className="font-archivo text-2xl sm:text-3xl font-black uppercase tracking-tight text-white leading-none">
-              Wisdom Shorts
-            </h1>
-          </div>
-
-          {/* Signature Quote in Crisp White */}
-          <div className="mt-3 sm:mt-4 text-center max-w-2xl px-4">
-            <p className="font-serif italic text-base sm:text-lg md:text-xl text-white font-normal leading-snug drop-shadow-md">
-              “You don’t need an hour to change your life. You need one sentence that dismantles your delusion.”
-            </p>
-          </div>
-
-          {/* Authority Subtitles */}
-          <div className="mt-2 text-center">
-            <p className="font-mono text-[10px] sm:text-[11px] uppercase tracking-[0.18em] text-white/70 font-semibold">
-              ARENA TURNING POINTS · MORNING MENTAL CONDITIONING · UNFILTERED LEADERSHIP PROTOCOLS
-            </p>
-          </div>
-
-          {/* Pill CTAs (Signature Indigo + Subscribe YouTube) */}
-          <div className="mt-4 sm:mt-5 flex flex-wrap items-center justify-center gap-3">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <button
               onClick={() => onPlayVideo('7jXuESXmLlE')}
-              className="px-6 py-2.5 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <Play className="w-3.5 h-3.5 fill-current text-white" />
               <span>Watch Featured Reel</span>
@@ -117,15 +69,15 @@ export default function ShortsPage({ onPlayVideo }) {
               href="https://www.youtube.com/@FromtheGuttertoGreatness/shorts"
               target="_blank"
               rel="noreferrer"
-              className="px-6 py-2.5 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2 cursor-pointer backdrop-blur-sm"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
               <span>YouTube Shorts</span>
-              <ExternalLink className="w-3 h-3 text-white" />
+              <ExternalLink className="w-3.5 h-3.5 text-white" />
             </a>
           </div>
 
           {/* Category Filter Pills */}
-          <div className="mt-5 flex flex-wrap items-center justify-center gap-2">
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-2">
             {categories.map((cat) => (
               <button
                 key={cat}

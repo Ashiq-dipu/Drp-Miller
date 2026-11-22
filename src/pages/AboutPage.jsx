@@ -68,10 +68,9 @@ export default function AboutPage({ onOpenBooking, onPlayVideo }) {
     <div className="selection:bg-[#2D0891] selection:text-white min-h-screen">
       
       {/* ========================================================
-          1. HERO STAGE (BLACK BACKGROUND)
-          Oprah Winfrey Personal Brand Layout
+          1. CINEMATIC ABOUT HERO (BLACK BACKGROUND)
       ======================================================== */}
-      <section className="relative w-full min-h-[100svh] flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
         
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
         <HeroVideoBackground 
@@ -79,64 +78,24 @@ export default function AboutPage({ onOpenBooking, onPlayVideo }) {
           title="Dr. Paul Miller TEDx Albany - We Need to Do Better" 
         />
 
-        {/* Central Stage: Split Headline with Full-Height Cutout */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Stage: Title, Subtitle, 2 Buttons & Stats at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
           
-          {/* Main Visual Composition (Dr. Paul [CUTOUT] Miller) */}
-          <div className="relative w-full flex items-center justify-center">
-            
-            {/* Desktop Left Text: "Dr. Paul" */}
-            <div className="hidden lg:block flex-1 text-right pr-6 xl:pr-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-5xl xl:text-7xl 2xl:text-8xl font-black uppercase tracking-[-0.03em] text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Dr. Paul
-              </span>
-            </div>
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Dr. Paul Miller
+          </h1>
 
-            {/* High-Resolution Cutout of Dr. Paul Miller */}
-            <div className="relative z-20 shrink-0 mx-auto">
-              <img 
-                src="/images/drpmiller/about-portrait-v2-transparent.png" 
-                alt="Dr. Paul Miller" 
-                className="h-[280px] sm:h-[360px] md:h-[400px] lg:h-[440px] xl:h-[480px] w-auto object-contain mx-auto drop-shadow-[0_25px_50px_rgba(0,0,0,0.95)] filter contrast-105"
-                loading="eager"
-              />
-            </div>
+          {/* Subtitle / Credentials Text */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            PRESIDENTIAL LIFETIME AWARD HONOREE • 6X PUBLISHED AUTHOR • URBAN SUPERINTENDENT • KEYNOTE HEADLINER
+          </p>
 
-            {/* Desktop Right Text: "Miller" */}
-            <div className="hidden lg:block flex-1 text-left pl-6 xl:pl-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-5xl xl:text-7xl 2xl:text-8xl font-black uppercase tracking-[-0.03em] text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Miller
-              </span>
-            </div>
-
-          </div>
-
-          {/* Mobile/Tablet Centered Name */}
-          <div className="block lg:hidden text-center mt-3 select-none">
-            <h1 className="font-archivo text-3xl sm:text-5xl font-black uppercase tracking-tight text-white leading-none">
-              Dr. Paul Miller
-            </h1>
-          </div>
-
-          {/* Signature Quote in Crisp White */}
-          <div className="mt-5 text-center max-w-2xl mx-auto px-4">
-            <p className="font-serif italic text-base sm:text-xl lg:text-[22px] text-white/95 leading-relaxed font-light drop-shadow">
-              “When you demand championship excellence from the gutter to greatness, the world takes notice.”
-            </p>
-          </div>
-
-          {/* Credentials Subtitle Strip (Crisp White/70, Never Low-Contrast Purple) */}
-          <div className="mt-3 text-center px-4">
-            <p className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.2em] text-white/70 font-medium max-w-2xl mx-auto leading-relaxed">
-              PRESIDENTIAL LIFETIME AWARD HONOREE • 6X PUBLISHED AUTHOR • URBAN SUPERINTENDENT • KEYNOTE HEADLINER
-            </p>
-          </div>
-
-          {/* Pill CTA Buttons */}
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <a
-              href="#story"
-              className="px-8 py-3 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-[0.16em] transition-all duration-300 shadow-[0_0_35px_rgba(45,8,145,0.6)] hover:shadow-[0_0_50px_rgba(124,58,237,0.8)] hover:scale-105 active:scale-95 border border-[#7C3AED]/50 cursor-pointer inline-flex items-center gap-2"
+              href="#bio"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <span>Explore The Journey</span>
               <ArrowRight className="w-3.5 h-3.5 text-white" />
@@ -144,35 +103,35 @@ export default function AboutPage({ onOpenBooking, onPlayVideo }) {
 
             <button
               onClick={() => onPlayVideo('m-HJpWobMiU')}
-              className="px-7 py-3 rounded-full border border-white/20 hover:border-white hover:bg-white/10 text-white font-sans font-bold text-xs uppercase tracking-[0.16em] transition-all duration-300 backdrop-blur-sm cursor-pointer inline-flex items-center gap-2"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
-              <Play className="w-3 h-3 fill-white text-white ml-0.5" />
+              <Play className="w-3.5 h-3.5 fill-current text-white" />
               <span>Watch Landmark TEDx</span>
             </button>
           </div>
 
-        </div>
-
-        {/* Micro Stats Bar on Hero Floor */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full pt-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 py-4 border-t border-white/15 font-mono text-xs">
-            <div className="space-y-0.5">
-              <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">FIELD LEADERSHIP</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white">26+ YEARS</div>
-            </div>
-            <div className="space-y-0.5">
-              <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">GREEN TECH CHARTER</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white">~95% GRAD</div>
-            </div>
-            <div className="space-y-0.5">
-              <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">GLOBAL AUDIENCES</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white">450K+</div>
-            </div>
-            <div className="space-y-0.5">
-              <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">VOLUMES IN PRINT</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white">6 BOOKS</div>
+          {/* Micro Stats Bar on Hero Floor */}
+          <div className="pt-6 border-t border-white/15 w-full">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 font-mono text-xs">
+              <div className="space-y-0.5">
+                <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">FIELD LEADERSHIP</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white">26+ YEARS</div>
+              </div>
+              <div className="space-y-0.5">
+                <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">GREEN TECH CHARTER</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white">~95% GRAD</div>
+              </div>
+              <div className="space-y-0.5">
+                <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">GLOBAL AUDIENCES</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white">450K+</div>
+              </div>
+              <div className="space-y-0.5">
+                <div className="text-white/50 uppercase text-[10px] font-semibold tracking-wider">VOLUMES IN PRINT</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white">6 BOOKS</div>
+              </div>
             </div>
           </div>
+
         </div>
 
       </section>

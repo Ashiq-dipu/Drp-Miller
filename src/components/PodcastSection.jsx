@@ -1,22 +1,8 @@
 import React from 'react';
-import { 
-  Play, 
-  Radio, 
-  Headphones, 
-  ArrowRight,
-  ExternalLink,
-  Volume2
-} from 'lucide-react';
+import { Play, ArrowRight, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function PodcastSection({ onPlayVideo }) {
-  const metricStats = [
-    { value: "TOP 2%", label: "GLOBAL PODCAST" },
-    { value: "84+", label: "EPISODES RELEASED" },
-    { value: "95%", label: "HIGH COMPLETION RATE" },
-    { value: "25+", label: "YEARS BLUEPRINT" }
-  ];
-
   const latestEpisodes = [
     {
       ep: "EPISODE 84",
@@ -49,250 +35,166 @@ export default function PodcastSection({ onPlayVideo }) {
   ];
 
   return (
-    <section id="podcast" className="w-full bg-[#0B0A09] text-white selection:bg-[#F2BD42] selection:text-[#0B0A09]">
-      
-      {/* ========================================================
-          PART 1: HERO STATS & PHONE PLAYER BANNER
-          (Dark atmospheric background matching reference)
-      ======================================================== */}
-      <div className="relative py-20 sm:py-28 overflow-hidden border-t border-white/10">
+    <section id="podcast" className="w-full bg-[#0B0A09] text-white selection:bg-[#F2BD42] selection:text-[#0B0A09] border-t border-white/10 py-20 sm:py-28 relative">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-12">
         
-        {/* Background Atmosphere Image */}
-        <div className="absolute inset-0 z-0">
-          <img
-            src="/images/dr-miller-speaking-audience.jpg"
-            alt="Audience Background"
-            className="w-full h-full object-cover opacity-25 filter grayscale contrast-125 scale-105"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0B0A09] via-[#0B0A09]/80 to-[#0B0A09]" />
+        {/* Section Header */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 pb-6 border-b border-white/10">
+          <div>
+            <span className="font-mono text-xs uppercase tracking-widest text-[#F2BD42] font-semibold block mb-2">
+              Official Podcast
+            </span>
+            <h2 className="font-archivo text-3xl sm:text-4xl lg:text-5xl font-black uppercase text-white tracking-tight">
+              FROM THE GUTTER TO GREATNESS
+            </h2>
+          </div>
+
+          <Link
+            to="/podcast"
+            className="inline-flex items-center gap-2 font-mono text-xs text-white/70 hover:text-white uppercase tracking-wider font-bold transition-colors group"
+          >
+            <span>Explore All 84+ Shows</span>
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
 
-        <div className="max-w-[1240px] mx-auto px-6 sm:px-12 relative z-10 space-y-16">
+        {/* High-Visibility Brand Platform Badges */}
+        <div className="mb-12 flex flex-wrap items-center gap-3 sm:gap-4">
+          <span className="font-mono text-xs text-white/50 uppercase tracking-wider font-semibold mr-1">
+            Available on:
+          </span>
+
+          {/* Spotify Badge */}
+          <a
+            href="https://open.spotify.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="px-5 py-2.5 rounded-full bg-[#121212] border border-[#1DB954]/50 hover:border-[#1DB954] hover:bg-[#1DB954]/10 transition-all duration-200 flex items-center gap-3 group shadow-lg"
+          >
+            <svg className="w-5 h-5 text-[#1DB954] fill-current shrink-0" viewBox="0 0 24 24">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.485 17.305c-.215.353-.674.464-1.026.25-2.81-1.717-6.347-2.106-10.513-1.155-.403.092-.803-.16-.895-.563-.092-.403.16-.803.563-.895 4.564-1.042 8.47-.6 11.62 1.337.353.214.464.673.251 1.026zm1.464-3.26c-.27.44-.848.58-1.288.31-3.218-1.978-8.123-2.55-11.93-1.394-.495.15-1.022-.132-1.172-.627-.15-.495.132-1.022.627-1.172 4.352-1.32 9.768-.678 13.453 1.595.44.27.58.848.31 1.288zm.126-3.41C15.22 8.35 8.86 8.14 5.16 9.263c-.59.18-1.22-.16-1.4-.75-.18-.59.16-1.22.75-1.4 4.25-1.29 11.28-1.05 15.65 1.545.53.315.705 1.01.39 1.54-.315.53-1.01.705-1.54.39z"/>
+            </svg>
+            <div className="text-left">
+              <div className="font-archivo text-xs font-bold text-white group-hover:text-[#1DB954] transition-colors leading-tight">
+                Spotify
+              </div>
+            </div>
+          </a>
+
+          {/* Apple Podcasts Badge */}
+          <a
+            href="https://podcasts.apple.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="px-5 py-2.5 rounded-full bg-[#121212] border border-[#B345FA]/50 hover:border-[#B345FA] hover:bg-[#B345FA]/10 transition-all duration-200 flex items-center gap-3 group shadow-lg"
+          >
+            <svg className="w-5 h-5 text-[#B345FA] fill-current shrink-0" viewBox="0 0 24 24">
+              <path d="M18.84 8.78A8.85 8.85 0 0 0 12 5.25a8.85 8.85 0 0 0-6.84 3.53 8.68 8.68 0 0 0-1.74 5.25 8.63 8.63 0 0 0 3.32 6.84 8.78 8.78 0 0 0 5.26 1.88 8.78 8.78 0 0 0 5.26-1.88 8.63 8.63 0 0 0 3.32-6.84 8.68 8.68 0 0 0-1.74-5.25zM12 7.05a6.97 6.97 0 0 1 5.39 2.78 6.94 6.94 0 0 1 1.37 4.2 6.9 6.9 0 0 1-2.65 5.48A7 7 0 0 1 12 20.7a7 7 0 0 1-4.11-1.19 6.9 6.9 0 0 1-2.65-5.48 6.94 6.94 0 0 1 1.37-4.2A6.97 6.97 0 0 1 12 7.05zm0 3.25a3.73 3.73 0 0 0-2.88 1.48 3.7 3.7 0 0 0-.74 2.25c0 1.25.5 2.15 1.25 2.7a3.73 3.73 0 0 0 2.37.82 3.73 3.73 0 0 0 2.37-.82c.75-.55 1.25-1.45 1.25-2.7a3.7 3.7 0 0 0-.74-2.25A3.73 3.73 0 0 0 12 10.3zm0 1.7a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm-1.1 6.55h2.2v4.25h-2.2v-4.25z"/>
+            </svg>
+            <div className="text-left">
+              <div className="font-archivo text-xs font-bold text-white group-hover:text-[#B345FA] transition-colors leading-tight">
+                Apple Podcasts
+              </div>
+            </div>
+          </a>
+
+          {/* YouTube Video Channel Badge */}
+          <a
+            href="https://www.youtube.com/@thedrpaulmiller"
+            target="_blank"
+            rel="noreferrer"
+            className="px-5 py-2.5 rounded-full bg-[#121212] border border-[#FF0000]/50 hover:border-[#FF0000] hover:bg-[#FF0000]/10 transition-all duration-200 flex items-center gap-3 group shadow-lg"
+          >
+            <svg className="w-5 h-5 text-[#FF0000] fill-current shrink-0" viewBox="0 0 24 24">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            <div className="text-left">
+              <div className="font-archivo text-xs font-bold text-white group-hover:text-[#FF0000] transition-colors leading-tight">
+                YouTube
+              </div>
+            </div>
+          </a>
+        </div>
+
+        {/* 2-Column Clean Dark Layout */}
+        <div className="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           
-          {/* Circular Stats Badges Row (Exact matching reference 4 circles) */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 justify-items-center">
-            {metricStats.map((stat, i) => (
-              <div 
-                key={i}
-                className="w-32 h-32 sm:w-36 sm:h-36 rounded-full bg-white text-[#0B0A09] flex flex-col items-center justify-center p-3 shadow-2xl text-center border-4 border-white/80 transition-transform duration-300 hover:scale-105"
+          {/* Left: Latest Episodes Stack */}
+          <div className="lg:col-span-7 space-y-3.5">
+            {latestEpisodes.map((ep, idx) => (
+              <div
+                key={idx}
+                onClick={() => onPlayVideo && onPlayVideo(ep.videoId)}
+                className="p-4 sm:p-5 rounded-2xl bg-[#141312] border border-white/10 hover:border-white/25 hover:bg-[#1a1917] transition-all duration-300 flex items-center justify-between gap-4 cursor-pointer group"
               >
-                <span className="font-archivo font-black text-2xl sm:text-3xl text-[#0B0A09] tracking-tight leading-none">
-                  {stat.value}
-                </span>
-                <span className="font-mono text-[9px] sm:text-[10px] font-bold tracking-wider text-[#0B0A09]/70 uppercase mt-1.5 leading-tight">
-                  {stat.label}
-                </span>
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2 text-white/50 font-mono text-[11px] font-bold uppercase tracking-wider">
+                    <span className="text-[#F2BD42]">{ep.ep}</span>
+                    <span>·</span>
+                    <span>{ep.duration}</span>
+                  </div>
+                  <h3 className="font-archivo text-base sm:text-lg font-bold text-white group-hover:text-[#F2BD42] transition-colors line-clamp-1">
+                    {ep.title}
+                  </h3>
+                </div>
+
+                <div className="relative shrink-0 w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border border-white/20 group-hover:border-[#F2BD42] group-hover:scale-105 transition-all">
+                  <img
+                    src={ep.image}
+                    alt={ep.title}
+                    className="w-full h-full object-cover filter contrast-105"
+                  />
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/15 flex items-center justify-center transition-colors">
+                    <div className="w-6 h-6 rounded-full bg-white text-black flex items-center justify-center shadow">
+                      <Play className="w-2.5 h-2.5 fill-current ml-0.5" />
+                    </div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
 
-          {/* Central Podcast Intro Card with Mobile App Mockup */}
-          <div className="max-w-4xl mx-auto grid md:grid-cols-12 gap-8 items-center bg-[#FAF6F0] rounded-3xl p-6 sm:p-10 shadow-2xl border border-white/20 text-[#0B0A09]">
-            
-            {/* Left: Smartphone Player Mockup */}
-            <div className="md:col-span-5 flex justify-center">
-              <div className="w-[230px] sm:w-[250px] rounded-[36px] bg-[#111] p-3 shadow-2xl border-4 border-[#333] relative">
-                
-                {/* Dynamic island notch */}
-                <div className="w-20 h-4 bg-black rounded-full mx-auto mb-3" />
-
-                {/* Cover in phone */}
-                <div className="rounded-2xl overflow-hidden aspect-square relative shadow-md">
-                  <img
-                    src="/images/drpmiller/podcast-cover.jpg"
-                    alt="Podcast Cover"
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/15" />
-                </div>
-
-                {/* Track details inside phone */}
-                <div className="pt-3 pb-2 text-white">
-                  <p className="font-archivo font-bold text-xs line-clamp-1">
-                    From the Gutter to Greatness
-                  </p>
-                  <p className="font-sans text-[10px] text-white/60">
-                    Dr. Paul Miller · Episode 84
-                  </p>
-
-                  {/* Progress scrubber */}
-                  <div className="w-full bg-white/20 h-1 rounded-full mt-3 overflow-hidden">
-                    <div className="bg-[#F2BD42] h-full w-2/3 rounded-full" />
-                  </div>
-                  <div className="flex justify-between text-[8px] text-white/50 font-mono mt-1">
-                    <span>14:28</span>
-                    <span>48:00</span>
-                  </div>
-
-                  {/* Play controls */}
-                  <div className="flex items-center justify-center gap-4 mt-2">
-                    <button 
-                      onClick={() => onPlayVideo && onPlayVideo('7jXuESXmLlE')}
-                      className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center cursor-pointer hover:scale-105 transition-transform"
-                    >
-                      <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
-                    </button>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            {/* Right: Show Description & Platforms Badges */}
-            <div className="md:col-span-7 space-y-5 text-left">
-              <div>
-                <span className="font-mono text-xs font-bold uppercase tracking-widest text-[#2D0891]">
-                  Official Podcast
-                </span>
-                <h3 className="font-archivo text-2xl sm:text-3xl lg:text-4xl font-black uppercase text-[#0B0A09] tracking-tight mt-1 leading-tight">
-                  FROM THE GUTTER TO GREATNESS
-                </h3>
-              </div>
-
-              <p className="font-sans text-sm sm:text-base text-[#0B0A09]/80 leading-relaxed font-normal">
-                Dr. Paul Miller dives deep into leadership sovereignty, urban transformation, and raw interviews with national figures, leaders, and educators shaping our generation.
-              </p>
-
-              {/* Platform buttons row (Apple Podcasts, Spotify, YouTube) */}
-              <div className="pt-2 flex flex-wrap items-center gap-3">
-                <a
-                  href="https://open.spotify.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-4 py-2.5 rounded-xl bg-[#1DB954] hover:bg-[#18a34a] text-white font-archivo font-bold text-xs tracking-wider uppercase transition-all flex items-center gap-2 shadow-sm"
-                >
-                  <Radio className="w-3.5 h-3.5" />
-                  <span>Spotify</span>
-                </a>
-
-                <a
-                  href="https://podcasts.apple.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-4 py-2.5 rounded-xl bg-[#872EC4] hover:bg-[#7223a8] text-white font-archivo font-bold text-xs tracking-wider uppercase transition-all flex items-center gap-2 shadow-sm"
-                >
-                  <Headphones className="w-3.5 h-3.5" />
-                  <span>Apple Podcasts</span>
-                </a>
-
-                <a
-                  href="https://www.youtube.com/@FromtheGuttertoGreatness/shorts"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-4 py-2.5 rounded-xl bg-[#FF0000] hover:bg-[#cc0000] text-white font-archivo font-bold text-xs tracking-wider uppercase transition-all flex items-center gap-2 shadow-sm"
-                >
-                  <Play className="w-3.5 h-3.5 fill-current" />
-                  <span>YouTube</span>
-                </a>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      {/* ========================================================
-          PART 2: LATEST EPISODES SPLIT
-          Left: Episode List | Right: Large Portrait of Dr. Miller
-          (Matching the exact 2nd half of the user reference)
-      ======================================================== */}
-      <div className="py-20 sm:py-28 bg-[#0B0A09] border-t border-white/10 relative">
-        <div className="max-w-[1440px] mx-auto px-6 sm:px-12">
-          
-          <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            
-            {/* Left Column: Latest Episodes List */}
-            <div className="lg:col-span-7 space-y-6">
-              
-              <div className="border-b border-white/15 pb-4">
-                <h3 className="font-archivo text-3xl sm:text-4xl font-black uppercase text-white tracking-tight">
-                  LATEST EPISODES
-                </h3>
-              </div>
-
-              {/* Episode Items */}
-              <div className="space-y-4">
-                {latestEpisodes.map((ep, idx) => (
-                  <div
-                    key={idx}
-                    onClick={() => onPlayVideo && onPlayVideo(ep.videoId)}
-                    className="p-4 sm:p-5 rounded-2xl bg-[#141312] border border-white/10 hover:border-white/30 hover:bg-[#1a1917] transition-all duration-300 flex items-center justify-between gap-4 cursor-pointer group"
-                  >
-                    {/* Left: Ep info & Title */}
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2 text-white/50 font-mono text-[11px] font-bold uppercase tracking-wider">
-                        <span>{ep.ep}</span>
-                        <span>·</span>
-                        <span>{ep.duration}</span>
-                      </div>
-                      <h4 className="font-archivo text-base sm:text-lg font-bold text-white group-hover:text-[#F2BD42] transition-colors line-clamp-1">
-                        {ep.title}
-                      </h4>
-                    </div>
-
-                    {/* Right: Small Circular Thumbnail with Play Overlay */}
-                    <div className="relative shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-white/20 group-hover:border-[#F2BD42] group-hover:scale-105 transition-all">
-                      <img
-                        src={ep.image}
-                        alt={ep.title}
-                        className="w-full h-full object-cover filter contrast-105"
-                      />
-                      <div className="absolute inset-0 bg-black/35 group-hover:bg-black/10 flex items-center justify-center transition-colors">
-                        <div className="w-6 h-6 rounded-full bg-white text-black flex items-center justify-center shadow">
-                          <Play className="w-2.5 h-2.5 fill-current ml-0.5" />
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                ))}
-              </div>
-
-              {/* View All Episodes Pill */}
-              <div className="pt-2">
-                <Link
-                  to="/podcast"
-                  className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-[#F2BD42] hover:bg-[#E0A82E] text-[#0B0A09] font-archivo font-bold text-xs uppercase tracking-wider transition-all duration-200 shadow-md hover:shadow-lg active:scale-95 cursor-pointer"
-                >
-                  <span>SEE ALL EPISODES</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
-              </div>
-
-            </div>
-
-            {/* Right Column: Dr. Paul Miller Large Authentic Studio Portrait */}
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="relative w-full max-w-[420px] rounded-[32px] overflow-hidden shadow-2xl border-2 border-white/10 group">
+          {/* Right: Featured Show Card with Dark Backdrop */}
+          <div className="lg:col-span-5 flex justify-center">
+            <div 
+              onClick={() => onPlayVideo && onPlayVideo('7jXuESXmLlE')}
+              className="relative w-full max-w-[440px] rounded-3xl overflow-hidden border border-white/15 bg-[#141312] shadow-2xl cursor-pointer group"
+            >
+              <div className="aspect-[4/3] w-full overflow-hidden relative">
                 <img
-                  src="/images/dr-miller-speaking-audience.jpg"
-                  alt="Dr. Paul Miller Studio Host"
-                  className="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-700 filter contrast-105"
+                  src="/images/drpmiller/podcast-cover.jpg"
+                  alt="From the Gutter to Greatness Podcast"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#141312] via-black/20 to-transparent" />
                 
-                <div className="absolute bottom-6 left-6 right-6 text-white pointer-events-none">
-                  <span className="font-mono text-xs uppercase tracking-widest text-[#F2BD42] font-bold block mb-1">
-                    HOST & CREATOR
-                  </span>
-                  <h4 className="font-archivo text-2xl font-black uppercase text-white leading-tight">
-                    DR. PAUL MILLER
-                  </h4>
-                  <p className="font-sans text-xs text-white/70 mt-1">
-                    Weekly episodes streaming across all major platforms.
-                  </p>
+                {/* Central Play Button */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-14 h-14 rounded-full bg-white/95 text-black flex items-center justify-center pl-0.5 shadow-xl group-hover:scale-110 group-hover:bg-[#F2BD42] transition-all duration-300">
+                    <Play className="w-6 h-6 fill-current" />
+                  </div>
                 </div>
               </div>
-            </div>
 
+              {/* Card Footer Content */}
+              <div className="p-6 space-y-2 bg-[#141312]">
+                <div className="flex items-center justify-between text-xs font-mono text-white/50">
+                  <span className="text-[#F2BD42] font-bold uppercase">FEATURED EPISODE</span>
+                  <span>WEEKLY BROADCAST</span>
+                </div>
+                <h4 className="font-archivo text-xl font-bold text-white group-hover:text-[#F2BD42] transition-colors">
+                  The Good Me vs. The Hood Me
+                </h4>
+                <p className="font-sans text-xs text-white/70 line-clamp-2 leading-relaxed">
+                  Dr. Paul Miller unpacks internal duality, emotional sovereignty, and navigating high-friction institutions without selling your soul.
+                </p>
+              </div>
+            </div>
           </div>
 
         </div>
-      </div>
 
+      </div>
     </section>
   );
 }

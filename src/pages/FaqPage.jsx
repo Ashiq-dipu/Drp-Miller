@@ -129,9 +129,9 @@ export default function FaqPage({ onOpenBooking }) {
     <div className="selection:bg-[#2D0891] selection:text-white min-h-screen font-sans">
       
       {/* ========================================================
-          1. CINEMATIC HERO SECTION
+          1. CINEMATIC FAQ HERO (BLACK BACKGROUND)
       ======================================================== */}
-      <section className="relative w-full min-h-[60vh] sm:min-h-[70vh] flex flex-col justify-end items-center pb-12 sm:pb-16 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
         
         {/* Full-Bleed Video Background with Softened Overlay */}
         <HeroVideoBackground
@@ -139,37 +139,37 @@ export default function FaqPage({ onOpenBooking }) {
           title="Dr. Paul Miller Meeting Planner FAQ"
         />
 
-        {/* Content Centered at Bottom Middle */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 text-center w-full">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 font-mono text-[11px] uppercase tracking-wider text-white mb-4 backdrop-blur-md">
-            <HelpCircle className="w-3.5 h-3.5 text-[#A78BFA]" />
-            <span>OFFICIAL MEETING PLANNER & ENGAGEMENT GUIDE</span>
-          </div>
-
-          <h1 className="font-archivo text-4xl sm:text-6xl md:text-7xl font-black uppercase tracking-tight text-white drop-shadow-[0_12px_40px_rgba(0,0,0,0.95)]">
-            Frequently Asked <span className="text-[#A78BFA]">Questions</span>
+        {/* Central Stage: Title, Subtitle & 2 Buttons at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
+          
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Frequently Asked Questions
           </h1>
 
-          <p className="mt-4 max-w-2xl mx-auto text-sm sm:text-base text-white/80 font-light leading-relaxed">
-            Everything meeting planners, conference committees, superintendents, and corporate executives need to know before securing Dr. Paul Miller.
+          {/* Subtitle */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            ENGAGEMENT LOGISTICS · BOOKING POLICIES · KEYNOTE TOPICS · ACCREDITATION
           </p>
 
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <button
               onClick={() => onOpenBooking && onOpenBooking('General FAQ Inquiry')}
-              className="px-6 py-3 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-xl shadow-[#2D0891]/30 hover:scale-105 active:scale-95"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <span>Ask Dr. Miller Directly</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <ArrowRight className="w-3.5 h-3.5 text-white" />
             </button>
             <a
               href="mailto:hello@drpmiller.com"
-              className="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white font-sans font-semibold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer backdrop-blur-sm"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
-              <Mail className="w-3.5 h-3.5 text-[#A78BFA]" />
+              <Mail className="w-3.5 h-3.5 text-white" />
               <span>hello@drpmiller.com</span>
             </a>
           </div>
+
         </div>
 
       </section>

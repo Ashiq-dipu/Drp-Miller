@@ -184,9 +184,8 @@ The question every young person must answer is not 'Can you be tough?' The stree
       
       {/* ========================================================
           1. CINEMATIC MONOGRAPH HERO (BLACK BACKGROUND)
-          High-Fashion Oprah/Mainstage Literary Exhibition Architecture
       ======================================================== */}
-      <section className="relative w-full min-h-[100svh] flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
         
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
         <HeroVideoBackground 
@@ -194,86 +193,24 @@ The question every young person must answer is not 'Can you be tough?' The stree
           title="Dr. Paul Miller Published Monograph Archive" 
         />
 
-        {/* Central Stage: Split Headline with 3D Book Fan */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Stage: Title, Subtitle, 2 Buttons & Stats at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
           
-          {/* Main Visual Composition (AUTHORIAL [BOOK TRIO] ARCHIVE) */}
-          <div className="relative w-full flex items-center justify-center">
-            
-            {/* Desktop Left Text: "THE AUTHORIAL" */}
-            <div className="hidden lg:block flex-1 text-right pr-6 xl:pr-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-5xl xl:text-7xl 2xl:text-8xl font-black uppercase tracking-[-0.03em] text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Authorial
-              </span>
-            </div>
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Published Library
+          </h1>
 
-            {/* Floating 3D Book Composition */}
-            <div className="relative z-20 shrink-0 mx-auto w-[280px] sm:w-[340px] md:w-[380px] h-[220px] sm:h-[280px] md:h-[320px] flex items-center justify-center">
-              
-              {/* Left Tilted Book (We Need to Do Better) */}
-              <div 
-                onClick={() => setSelectedBookIndex(1)}
-                className="absolute left-4 sm:left-6 w-28 sm:w-36 md:w-40 aspect-[2/3] rounded-lg overflow-hidden shadow-[-15px_20px_35px_rgba(0,0,0,0.9)] border border-white/20 -rotate-12 hover:rotate-0 hover:scale-110 hover:z-30 transition-all duration-300 cursor-pointer filter contrast-105"
-              >
-                <img src="/images/book-weneed.jpg" alt="We Need To Do Better" className="w-full h-full object-cover" />
-              </div>
+          {/* Subtitle */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            6 PUBLISHED MONOGRAPHS · BLUEPRINTS FOR SOVEREIGN LEADERSHIP & RESILIENCE
+          </p>
 
-              {/* Right Tilted Book (The Good Me vs The Hood Me) */}
-              <div 
-                onClick={() => setSelectedBookIndex(4)}
-                className="absolute right-4 sm:right-6 w-28 sm:w-36 md:w-40 aspect-[2/3] rounded-lg overflow-hidden shadow-[15px_20px_35px_rgba(0,0,0,0.9)] border border-white/20 rotate-12 hover:rotate-0 hover:scale-110 hover:z-30 transition-all duration-300 cursor-pointer filter contrast-105"
-              >
-                <img src="/images/book-goodhood.webp" alt="The Good Me vs The Hood Me" className="w-full h-full object-cover" />
-              </div>
-
-              {/* Center Main Stage Book (From the Gutter to Greatness) */}
-              <div 
-                onClick={() => setSelectedBookIndex(0)}
-                className="relative z-20 w-32 sm:w-40 md:w-48 aspect-[2/3] rounded-xl overflow-hidden shadow-[0_25px_50px_rgba(0,0,0,0.95)] border-2 border-white/40 ring-4 ring-[#2D0891]/40 hover:scale-110 transition-all duration-300 cursor-pointer filter contrast-110"
-              >
-                <img src="/images/book-gutter.jpg" alt="From the Gutter to Greatness" className="w-full h-full object-cover" />
-                <div className="absolute top-2 right-2 px-2 py-0.5 rounded-full bg-[#2D0891] text-white font-mono text-[9px] font-bold uppercase tracking-wider shadow-md">
-                  FLAGSHIP
-                </div>
-              </div>
-
-            </div>
-
-            {/* Desktop Right Text: "ARCHIVE" */}
-            <div className="hidden lg:block flex-1 text-left pl-6 xl:pl-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-5xl xl:text-7xl 2xl:text-8xl font-black uppercase tracking-[-0.03em] text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Archive
-              </span>
-            </div>
-
-          </div>
-
-          {/* Mobile/Tablet Centered Name */}
-          <div className="block lg:hidden text-center mt-3 select-none">
-            <h1 className="font-archivo text-3xl sm:text-5xl font-black uppercase tracking-tight text-white leading-none">
-              Authorial Archive
-            </h1>
-          </div>
-
-          {/* Signature Quote in Crisp White */}
-          <div className="mt-5 sm:mt-7 text-center max-w-3xl px-4">
-            <p className="font-serif italic text-lg sm:text-2xl md:text-3xl text-white font-normal leading-snug drop-shadow-md">
-              “Books are not ideas on paper. They are portable turnaround blueprints.”
-            </p>
-          </div>
-
-          {/* Authority Subtitles */}
-          <div className="mt-3 sm:mt-4 text-center">
-            <p className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.2em] text-white/70 font-semibold">
-              6 PUBLISHED MONOGRAPHS · OVER 180,000 COPIES IN CIRCULATION · 120+ LICENSED DISTRICTS
-            </p>
-          </div>
-
-          {/* Pill CTAs (Signature Indigo + District Bundles) */}
-          <div className="mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <a
               href="#monograph-stage"
-              className="px-8 py-3.5 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <BookOpen className="w-3.5 h-3.5 text-white" />
               <span>Explore 6 Monographs</span>
@@ -282,7 +219,7 @@ The question every young person must answer is not 'Can you be tough?' The stree
 
             <button
               onClick={() => onOpenBooking('District Bulk Licensing & Curriculum Adoption')}
-              className="px-7 py-3.5 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
               <ShieldCheck className="w-4 h-4 text-white" />
               <span>Order District Bundles</span>
@@ -290,18 +227,20 @@ The question every young person must answer is not 'Can you be tough?' The stree
           </div>
 
           {/* Micro Stats Counter */}
-          <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-8 sm:gap-16 font-mono text-xs text-center">
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">CIRCULATION</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">180,000+</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">DISTRICT ADOPTION</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">120+ DISTRICTS</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">CURRICULA LICENSES</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">ACCREDITED K-12</div>
+          <div className="pt-6 border-t border-white/15 w-full">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 font-mono text-xs text-center">
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">CIRCULATION</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">180,000+</div>
+              </div>
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">DISTRICT ADOPTION</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">120+ DISTRICTS</div>
+              </div>
+              <div className="col-span-2 md:col-span-1">
+                <div className="text-white/50 uppercase text-[10px] font-semibold">CORE VOLUMES</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">6 TITLES</div>
+              </div>
             </div>
           </div>
 

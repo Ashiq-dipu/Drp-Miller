@@ -59,9 +59,8 @@ export default function CoursesPage({ onOpenBooking }) {
 
       {/* ========================================================
           1. CINEMATIC DIGITAL ACADEMY HERO (BLACK BACKGROUND)
-          High-Fashion Oprah/Mainstage Masterclass Architecture
       ======================================================== */}
-      <section className="relative w-full min-h-[100svh] flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
 
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
         <HeroVideoBackground
@@ -69,28 +68,24 @@ export default function CoursesPage({ onOpenBooking }) {
           title="Dr. Paul Miller - The Good Me and The Hood Me Curriculum"
         />
 
-        {/* Central Stage: Split Headline with Masterclass Avatar */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Stage: Title, Subtitle & 2 Buttons at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
 
-          {/* Main Visual Headline */}
-          <div className="text-center select-none">
-            <h1 className="font-archivo text-5xl sm:text-7xl lg:text-8xl font-black uppercase tracking-tight text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-              Digital Academy
-            </h1>
-          </div>
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Digital Academy
+          </h1>
 
-          {/* Authority Subtitles */}
-          <div className="mt-3 sm:mt-4 text-center">
-            <p className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.2em] text-white/70 font-semibold">
-              SELF-PACED HD MODULES · ACCREDITED WORKBOOKS · DISTRICT ENTERPRISE SEATS
-            </p>
-          </div>
+          {/* Subtitle */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            SELF-PACED HD MODULES · ACCREDITED WORKBOOKS · DISTRICT ENTERPRISE SEATS
+          </p>
 
-          {/* Pill CTAs (Signature Indigo + District Seats) */}
-          <div className="mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <a
-              href="#courses-catalog"
-              className="px-8 py-3.5 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
+              href="#courses"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <span>Explore 3 Masterclasses</span>
               <ArrowRight className="w-3.5 h-3.5 text-white" />
@@ -98,7 +93,7 @@ export default function CoursesPage({ onOpenBooking }) {
 
             <button
               onClick={() => onOpenBooking('District Course Licensing Inquiry')}
-              className="px-7 py-3.5 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
               <ShieldCheck className="w-4 h-4 text-white" />
               <span>District Team Licensing</span>

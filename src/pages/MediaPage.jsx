@@ -66,9 +66,8 @@ export default function MediaPage({ onOpenBooking, onPlayVideo }) {
       
       {/* ========================================================
           1. CINEMATIC PRESS & MEDIA HERO (BLACK BACKGROUND)
-          High-Fashion Oprah/Mainstage Broadcast Architecture
       ======================================================== */}
-      <section className="relative w-full min-h-[100svh] flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
         
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
         <HeroVideoBackground 
@@ -76,69 +75,24 @@ export default function MediaPage({ onOpenBooking, onPlayVideo }) {
           title="Dr. Paul Miller Press & Media Dossier" 
         />
 
-        {/* Central Stage: Split Headline with Press Avatar */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Stage: Title, Subtitle, 2 Buttons & Stats at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
           
-          <h1 className="sr-only">Press & Media Dossier</h1>
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Press & Media Dossier
+          </h1>
 
-          {/* Main Visual Composition (PRESS & MEDIA [BEN CRUMP AVATAR] DOSSIER) */}
-          <div className="relative w-full flex items-center justify-center gap-4 sm:gap-6 lg:gap-10">
-            
-            {/* Desktop Left Text: "PRESS & MEDIA" */}
-            <div className="hidden lg:block flex-1 text-right select-none pointer-events-none z-10">
-              <span className="font-archivo text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black uppercase tracking-tight text-white leading-none block whitespace-nowrap drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Press & Media
-              </span>
-            </div>
+          {/* Subtitle */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            NATIONAL BROADCASTS · CIVILIAN CITATIONS · KEY TO NEW YORK CITY · PRESIDENTIAL HONORS
+          </p>
 
-            {/* National Press Avatar of Dr. Paul Miller with Ben Crump */}
-            <div className="relative z-20 shrink-0 mx-auto w-44 sm:w-56 md:w-64 lg:w-72 aspect-[4/5] rounded-[32px] overflow-hidden border-2 border-white/40 ring-4 ring-[#2D0891]/40 shadow-[0_25px_50px_rgba(0,0,0,0.95)] group">
-              <img 
-                src="/images/drpmiller/ben-crump.jpg" 
-                alt="Dr. Paul Miller Press Dossier with Ben Crump" 
-                className="w-full h-full object-cover filter contrast-105 group-hover:scale-105 transition-transform duration-700"
-                loading="eager"
-              />
-              <div className="absolute top-3 left-3 bg-[#2D0891] text-white px-2.5 py-1 rounded-full font-mono text-[9px] uppercase font-bold tracking-wider shadow-md">
-                NATIONAL PRESS
-              </div>
-            </div>
-
-            {/* Desktop Right Text: "DOSSIER" */}
-            <div className="hidden lg:block flex-1 text-left select-none pointer-events-none z-10">
-              <span className="font-archivo text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black uppercase tracking-tight text-white leading-none block whitespace-nowrap drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Dossier
-              </span>
-            </div>
-
-          </div>
-
-          {/* Mobile/Tablet Centered Name */}
-          <div className="block lg:hidden text-center mt-4 select-none">
-            <div className="font-archivo text-3xl sm:text-5xl font-black uppercase tracking-tight text-white leading-none">
-              Press & Media Dossier
-            </div>
-          </div>
-
-          {/* Signature Quote in Crisp White */}
-          <div className="mt-5 sm:mt-7 text-center max-w-3xl px-4">
-            <p className="font-serif italic text-lg sm:text-2xl md:text-3xl text-white font-normal leading-snug drop-shadow-md">
-              “See it. Feel it. Live it. Dr. Paul Miller delivers truth-telling clarity that commands the national stage.”
-            </p>
-          </div>
-
-          {/* Authority Subtitles */}
-          <div className="mt-3 sm:mt-4 text-center">
-            <p className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.2em] text-white/70 font-semibold">
-              NATIONAL BROADCASTS · CIVILIAN CITATIONS · KEY TO NEW YORK CITY · PRESIDENTIAL HONORS
-            </p>
-          </div>
-
-          {/* Pill CTAs (Signature Indigo + Request Kit) */}
-          <div className="mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <button
               onClick={() => onPlayVideo('7jXuESXmLlE')}
-              className="px-8 py-3.5 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <Play className="w-3.5 h-3.5 fill-current text-white" />
               <span>Play Highlight Segment</span>
@@ -146,7 +100,7 @@ export default function MediaPage({ onOpenBooking, onPlayVideo }) {
 
             <button
               onClick={() => onOpenBooking('Press & Media Interview')}
-              className="px-7 py-3.5 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
               <Radio className="w-4 h-4 text-white" />
               <span>Request Press Kit & Bios</span>
@@ -154,18 +108,20 @@ export default function MediaPage({ onOpenBooking, onPlayVideo }) {
           </div>
 
           {/* Micro Stats Counter */}
-          <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-8 sm:gap-16 font-mono text-xs text-center">
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">BROADCASTS</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">50+ MEDIA</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">TEDX REACH</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">100K+ VIEWS</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">PRESS ASSETS</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">HD MEDIA KIT</div>
+          <div className="pt-6 border-t border-white/15 w-full">
+            <div className="grid grid-cols-3 gap-6 font-mono text-xs text-center">
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">BROADCASTS</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">50+ MEDIA</div>
+              </div>
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">TEDX REACH</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">100K+ VIEWS</div>
+              </div>
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">PRESS ASSETS</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">HD MEDIA KIT</div>
+              </div>
             </div>
           </div>
 

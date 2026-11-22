@@ -10,7 +10,8 @@ export default function HeroVideoBackground({
   title = "Background Video",
   overlayOpacity = "bg-[#0B0A09]/15",
   topGradient = "to-[#0B0A09]/25",
-  sideGradient = "from-[#0B0A09]/55 via-[#0B0A09]/15 to-[#0B0A09]/55"
+  sideGradient = "from-[#0B0A09]/55 via-[#0B0A09]/15 to-[#0B0A09]/55",
+  scaleClass = "scale-100 sm:scale-105 md:scale-110"
 }) {
   if (!videoId) return null;
 
@@ -22,7 +23,7 @@ export default function HeroVideoBackground({
           <iframe
             title={title}
             src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&controls=0&modestbranding=1&playsinline=1&rel=0&showinfo=0&iv_load_policy=3&disablekb=1&enablejsapi=1`}
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vw] h-[56.25vw] min-h-[100svh] min-w-[177.78svh] scale-110 sm:scale-115 md:scale-125 border-0 pointer-events-none select-none filter contrast-105 brightness-100"
+            className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vw] h-[56.25vw] min-h-[100svh] min-w-[177.78svh] ${scaleClass} border-0 pointer-events-none select-none filter contrast-105 brightness-100`}
             allow="autoplay; encrypted-media; picture-in-picture"
             tabIndex="-1"
             aria-hidden="true"

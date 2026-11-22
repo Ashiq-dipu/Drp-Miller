@@ -70,9 +70,8 @@ export default function PodcastPage({ onPlayVideo }) {
       
       {/* ========================================================
           1. CINEMATIC PODCAST HERO (BLACK BACKGROUND)
-          High-Fashion Oprah/Mainstage Broadcast Architecture
       ======================================================== */}
-      <section className="relative w-full min-h-[100svh] flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-12 overflow-hidden bg-[#0B0A09] text-white">
         
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
         <HeroVideoBackground 
@@ -80,103 +79,28 @@ export default function PodcastPage({ onPlayVideo }) {
           title="Dr. Paul Miller The Official Podcast Studio" 
         />
 
-        {/* Central Stage: Split Headline with Podcast Artwork */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Content Box: Title, 3 Buttons & Stats all at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-8">
           
-          {/* Main Visual Composition (THE OFFICIAL [PODCAST ARTWORK] PODCAST) */}
-          <div className="relative w-full flex items-center justify-center">
-            
-            {/* Desktop Left Text: "THE OFFICIAL" */}
-            <div className="hidden lg:block flex-1 text-right pr-6 xl:pr-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-5xl xl:text-7xl 2xl:text-8xl font-black uppercase tracking-[-0.03em] text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                The Official
-              </span>
-            </div>
-
-            {/* High-Resolution Interactive Podcast Video Reel Showcase */}
-            <div 
-              onClick={() => onPlayVideo('7jXuESXmLlE')}
-              className="relative z-20 shrink-0 mx-auto w-44 sm:w-56 md:w-64 aspect-square rounded-[28px] overflow-hidden border-2 border-white/40 ring-4 ring-[#2D0891]/40 shadow-[0_25px_50px_rgba(0,0,0,0.95)] cursor-pointer group hover:scale-105 transition-all duration-300 bg-black"
-            >
-              <video
-                ref={videoRef}
-                autoPlay
-                loop
-                muted
-                playsInline
-                preload="auto"
-                poster="/images/drpmiller/podcast-cover.jpg"
-                className="w-full h-full object-cover filter contrast-105 group-hover:scale-105 transition-transform duration-700"
-              >
-                <source src="/videos/hero-reel.mp4" type="video/mp4" />
-              </video>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/30 pointer-events-none" />
-              
-              {/* Center Play Button Overlay */}
-              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#2D0891]/80 backdrop-blur-md text-white flex items-center justify-center shadow-2xl group-hover:scale-110 group-hover:bg-[#2D0891] transition-all duration-300 ring-4 ring-white/25">
-                  <Play className="w-6 h-6 sm:w-7 sm:h-7 fill-current text-white ml-0.5" />
-                </div>
-              </div>
-
-              {/* Bottom Episode Info & Audio Wave Indicator */}
-              <div className="absolute bottom-3.5 left-3.5 right-3.5 text-white pointer-events-none flex items-end justify-between">
-                <div>
-                  <div className="font-mono text-[9px] uppercase tracking-wider text-white/80 font-bold flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                    LATEST EPISODE 84
-                  </div>
-                  <div className="font-archivo text-xs sm:text-sm font-bold text-white drop-shadow">The Sovereign Mindset</div>
-                </div>
-                {/* Audio visualizer wave */}
-                <div className="flex items-end gap-0.5 h-3.5 mb-1 opacity-80 group-hover:opacity-100">
-                  <span className="w-0.5 h-2 bg-white rounded-full animate-pulse" />
-                  <span className="w-0.5 h-3.5 bg-[#7C3AED] rounded-full animate-pulse [animation-delay:150ms]" />
-                  <span className="w-0.5 h-2.5 bg-white rounded-full animate-pulse [animation-delay:300ms]" />
-                  <span className="w-0.5 h-1.5 bg-[#7C3AED] rounded-full animate-pulse [animation-delay:450ms]" />
-                </div>
-              </div>
-            </div>
-
-            {/* Desktop Right Text: "PODCAST" */}
-            <div className="hidden lg:block flex-1 text-left pl-6 xl:pl-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-5xl xl:text-7xl 2xl:text-8xl font-black uppercase tracking-[-0.03em] text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Podcast
-              </span>
-            </div>
-
-          </div>
-
-          {/* Mobile/Tablet Centered Name */}
-          <div className="block lg:hidden text-center mt-3 select-none">
-            <h1 className="font-archivo text-3xl sm:text-5xl font-black uppercase tracking-tight text-white leading-none">
+          {/* Main Title */}
+          <div>
+            <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#F2BD42] font-semibold block mb-3">
+              FROM THE GUTTER TO GREATNESS
+            </span>
+            <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
               The Official Podcast
             </h1>
           </div>
 
-          {/* Signature Quote in Crisp White */}
-          <div className="mt-5 sm:mt-7 text-center max-w-3xl px-4">
-            <p className="font-serif italic text-lg sm:text-2xl md:text-3xl text-white font-normal leading-snug drop-shadow-md">
-              “Uncompromising conversations on turnaround leadership, personal sovereignty, and building institutions that outlive you.”
-            </p>
-          </div>
-
-          {/* Authority Subtitles */}
-          <div className="mt-3 sm:mt-4 text-center">
-            <p className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.2em] text-white/70 font-semibold">
-              FROM THE GUTTER TO GREATNESS WITH DR. PAUL MILLER · DROPS EVERY TUESDAY 6AM EST
-            </p>
-          </div>
-
-          {/* Platform Badges */}
-          <div className="mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-3">
+          {/* 3 Platform Buttons */}
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <a
               href="https://podcasts.apple.com/"
               target="_blank"
               rel="noreferrer"
-              className="px-6 py-3 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-mono text-xs uppercase tracking-wider transition-all flex items-center gap-2 font-bold shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40"
+              className="px-6 py-3 rounded-full bg-[#121212] border border-[#B345FA]/50 hover:border-[#B345FA] hover:bg-[#B345FA]/15 text-white font-archivo font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2.5 shadow-xl hover:scale-105 active:scale-95 group"
             >
-              <Headphones className="w-4 h-4 text-white" />
+              <Headphones className="w-4 h-4 text-[#B345FA] group-hover:scale-110 transition-transform" />
               <span>Apple Podcasts</span>
             </a>
 
@@ -184,36 +108,38 @@ export default function PodcastPage({ onPlayVideo }) {
               href="https://open.spotify.com/"
               target="_blank"
               rel="noreferrer"
-              className="px-6 py-3 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-mono text-xs uppercase tracking-wider transition-all flex items-center gap-2 font-bold backdrop-blur-sm"
+              className="px-6 py-3 rounded-full bg-[#121212] border border-[#1DB954]/50 hover:border-[#1DB954] hover:bg-[#1DB954]/15 text-white font-archivo font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2.5 shadow-xl hover:scale-105 active:scale-95 group"
             >
-              <Radio className="w-4 h-4 text-white" />
+              <Radio className="w-4 h-4 text-[#1DB954] group-hover:scale-110 transition-transform" />
               <span>Spotify</span>
             </a>
 
             <a
-              href="https://www.youtube.com/@drpmiller"
+              href="https://www.youtube.com/@thedrpaulmiller"
               target="_blank"
               rel="noreferrer"
-              className="px-6 py-3 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-mono text-xs uppercase tracking-wider transition-all flex items-center gap-2 font-bold backdrop-blur-sm"
+              className="px-6 py-3 rounded-full bg-[#121212] border border-[#FF0000]/50 hover:border-[#FF0000] hover:bg-[#FF0000]/15 text-white font-archivo font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2.5 shadow-xl hover:scale-105 active:scale-95 group"
             >
-              <Play className="w-4 h-4 text-white" />
+              <Play className="w-4 h-4 text-[#FF0000] fill-current group-hover:scale-110 transition-transform" />
               <span>YouTube Video</span>
             </a>
           </div>
 
-          {/* Micro Stats Counter */}
-          <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-8 sm:gap-16 font-mono text-xs text-center">
+          {/* Micro Stats Row: EPISODES ARCHIVE 84+ SHOWS, CADENCE EVERY TUESDAY, DISTRIBUTION NATIONWIDE */}
+          <div className="w-full pt-8 border-t border-white/15 flex flex-wrap items-center justify-center gap-8 sm:gap-16 font-mono text-center">
             <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">EPISODES ARCHIVE</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">84+ SHOWS</div>
+              <div className="text-white/60 uppercase text-[11px] font-semibold tracking-wider">EPISODES ARCHIVE</div>
+              <div className="font-archivo text-xl sm:text-2xl font-black text-white mt-1">84+ SHOWS</div>
             </div>
+            <div className="w-px h-8 bg-white/10 hidden sm:block" />
             <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">CADENCE</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">EVERY TUESDAY</div>
+              <div className="text-white/60 uppercase text-[11px] font-semibold tracking-wider">CADENCE</div>
+              <div className="font-archivo text-xl sm:text-2xl font-black text-white mt-1">EVERY TUESDAY</div>
             </div>
+            <div className="w-px h-8 bg-white/10 hidden sm:block" />
             <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">DISTRIBUTION</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">NATIONWIDE</div>
+              <div className="text-white/60 uppercase text-[11px] font-semibold tracking-wider">DISTRIBUTION</div>
+              <div className="font-archivo text-xl sm:text-2xl font-black text-white mt-1">NATIONWIDE</div>
             </div>
           </div>
 

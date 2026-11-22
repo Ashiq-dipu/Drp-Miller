@@ -81,9 +81,8 @@ export default function PathsPage({ onOpenBooking }) {
       
       {/* ========================================================
           1. CINEMATIC IMPACT PATHWAYS HERO (BLACK BACKGROUND)
-          High-Fashion Oprah/Mainstage Initiative Architecture
       ======================================================== */}
-      <section className="relative w-full min-h-[100svh] flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
         
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
         <HeroVideoBackground 
@@ -91,35 +90,24 @@ export default function PathsPage({ onOpenBooking }) {
           title="Dr. Paul Miller - STREAM Education Services & Pathways" 
         />
 
-        {/* Central Stage: Split Headline with Pathways Avatar */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Stage: Title, Subtitle, 2 Buttons & Stats at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
           
-          {/* Main Visual Headline */}
-          <div className="text-center select-none">
-            <h1 className="font-archivo text-5xl sm:text-7xl lg:text-8xl font-black uppercase tracking-tight text-white leading-none block drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-              Impact Pathways
-            </h1>
-          </div>
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Impact Pathways
+          </h1>
 
-          {/* Signature Quote in Crisp White */}
-          <div className="mt-5 sm:mt-7 text-center max-w-3xl px-4">
-            <p className="font-serif italic text-lg sm:text-2xl md:text-3xl text-white font-normal leading-snug drop-shadow-md">
-              “One mission. Many doors in. We build sustainable infrastructure where others only offer rhetoric.”
-            </p>
-          </div>
+          {/* Subtitle */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            FOUNDATIONS · URBAN EDUCATION COALITIONS · REENTRY ALLIANCES · YOUTH LABS
+          </p>
 
-          {/* Authority Subtitles */}
-          <div className="mt-3 sm:mt-4 text-center">
-            <p className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.2em] text-white/70 font-semibold">
-              FOUNDATIONS · URBAN EDUCATION COALITIONS · REENTRY ALLIANCES · YOUTH LABS
-            </p>
-          </div>
-
-          {/* Pill CTAs (Signature Indigo + Partner Button) */}
-          <div className="mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <a
               href="#pathways-grid"
-              className="px-8 py-3.5 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <span>Explore All 7 Pathways</span>
               <ArrowRight className="w-3.5 h-3.5 text-white" />
@@ -127,7 +115,7 @@ export default function PathsPage({ onOpenBooking }) {
 
             <button
               onClick={() => onOpenBooking('Institutional Initiative Partnership')}
-              className="px-7 py-3.5 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
               <ShieldCheck className="w-4 h-4 text-white" />
               <span>Partner With An Initiative</span>
@@ -135,18 +123,20 @@ export default function PathsPage({ onOpenBooking }) {
           </div>
 
           {/* Micro Stats Counter */}
-          <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-8 sm:gap-16 font-mono text-xs text-center">
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">INITIATIVES</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">7 PATHS</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">YOUTH REACHED</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">50,000+</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">COMMUNITY COALITIONS</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">18 STATES</div>
+          <div className="pt-6 border-t border-white/15 w-full">
+            <div className="grid grid-cols-3 gap-6 font-mono text-xs text-center">
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">INITIATIVES</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">7 PATHS</div>
+              </div>
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">YOUTH REACHED</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">50,000+</div>
+              </div>
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">COMMUNITY COALITIONS</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">18 STATES</div>
+              </div>
             </div>
           </div>
 

@@ -72,9 +72,8 @@ export default function CoachingPage({ onOpenBooking }) {
       
       {/* ========================================================
           1. CINEMATIC EXECUTIVE COACHING HERO (BLACK BACKGROUND)
-          High-Fashion Oprah/Mainstage Editorial Architecture
       ======================================================== */}
-      <section className="relative w-full min-h-[100svh] flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-[#0B0A09] text-white">
+      <section className="relative w-full min-h-[100svh] flex flex-col justify-end pt-28 pb-8 sm:pb-10 overflow-hidden bg-[#0B0A09] text-white">
         
         {/* Background Full-Bleed Video with Softened Dark Overlay */}
         <HeroVideoBackground 
@@ -82,66 +81,24 @@ export default function CoachingPage({ onOpenBooking }) {
           title="Dr. Paul Miller Executive Advisory - Invest In Yourself" 
         />
 
-        {/* Central Stage: Split Headline with Executive Avatar */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-12 w-full flex-1 flex flex-col justify-center items-center my-auto">
+        {/* Central Stage: Title, Subtitle, 2 Buttons & Stats at Middle Bottom */}
+        <div className="relative z-10 max-w-[1240px] mx-auto px-6 sm:px-12 w-full text-center flex flex-col items-center space-y-6">
           
-          <h1 className="sr-only">Executive Advisory</h1>
+          {/* Main Title */}
+          <h1 className="font-archivo text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white leading-none drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+            Executive Advisory
+          </h1>
 
-          {/* Main Visual Composition (EXECUTIVE [AVATAR] ADVISORY) */}
-          <div className="relative w-full flex items-center justify-center">
-            
-            {/* Desktop Left Text: "EXECUTIVE" */}
-            <div className="hidden lg:block flex-1 text-right pr-4 lg:pr-8 xl:pr-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black uppercase tracking-tight text-white leading-none block whitespace-nowrap drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Executive
-              </span>
-            </div>
+          {/* Subtitle */}
+          <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-white/80 font-semibold max-w-3xl">
+            SUPERINTENDENTS · FOUNDERS · URBAN DISTRICT LEADERS · TURNAROUND CEOS
+          </p>
 
-            {/* Dedicated High-Resolution Executive Cutout of Dr. Paul Miller */}
-            <div className="relative z-20 shrink-0 mx-auto">
-              <img 
-                src="/images/coaching-cutout.png" 
-                alt="Dr. Paul Miller Executive Advisory" 
-                className="h-[280px] sm:h-[360px] md:h-[400px] lg:h-[440px] xl:h-[480px] w-auto object-contain mx-auto drop-shadow-[0_25px_50px_rgba(0,0,0,0.95)] filter contrast-105"
-                loading="eager"
-              />
-            </div>
-
-            {/* Desktop Right Text: "ADVISORY" */}
-            <div className="hidden lg:block flex-1 text-left pl-4 lg:pl-8 xl:pl-12 select-none pointer-events-none z-10">
-              <span className="font-archivo text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black uppercase tracking-tight text-white leading-none block whitespace-nowrap drop-shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
-                Advisory
-              </span>
-            </div>
-
-          </div>
-
-          {/* Mobile/Tablet Centered Name */}
-          <div className="block lg:hidden text-center mt-4 select-none">
-            <div className="font-archivo text-3xl sm:text-5xl font-black uppercase tracking-tight text-white leading-none">
-              Executive Advisory
-            </div>
-          </div>
-
-          {/* Signature Quote in Crisp White */}
-          <div className="mt-5 sm:mt-7 text-center max-w-3xl px-4">
-            <p className="font-serif italic text-lg sm:text-2xl md:text-3xl text-white font-normal leading-snug drop-shadow-md">
-              “Every elite leader has someone in their corner who tells them the uncompromising truth.”
-            </p>
-          </div>
-
-          {/* Authority Subtitles */}
-          <div className="mt-3 sm:mt-4 text-center">
-            <p className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.2em] text-white/70 font-semibold">
-              SUPERINTENDENTS · FOUNDERS · URBAN DISTRICT LEADERS · TURNAROUND CEOS
-            </p>
-          </div>
-
-          {/* Pill CTAs (Signature Indigo + Protocol Glass Button) */}
-          <div className="mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+          {/* 2 Buttons */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <button
               onClick={() => onOpenBooking('Executive 1:1 Coaching Intake')}
-              className="px-8 py-3.5 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
+              className="px-8 py-4 rounded-full bg-[#2D0891] hover:bg-[#3D0CB8] text-white font-sans font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 cursor-pointer shadow-2xl hover:scale-105 active:scale-95 border border-[#7C3AED]/40 shadow-[#2D0891]/40"
             >
               <span>Apply for Advisory Roster</span>
               <ArrowRight className="w-3.5 h-3.5 text-white" />
@@ -149,7 +106,7 @@ export default function CoachingPage({ onOpenBooking }) {
 
             <a
               href="#advisory-tiers"
-              className="px-7 py-3.5 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
+              className="px-7 py-4 rounded-full border border-white/30 hover:border-white hover:bg-white/10 text-white font-sans font-semibold text-xs tracking-wider uppercase transition-all flex items-center gap-2.5 cursor-pointer backdrop-blur-sm"
             >
               <ShieldCheck className="w-4 h-4 text-white" />
               <span>View Advisory Protocols</span>
@@ -157,18 +114,20 @@ export default function CoachingPage({ onOpenBooking }) {
           </div>
 
           {/* Micro Stats Counter */}
-          <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-8 sm:gap-16 font-mono text-xs text-center">
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">CONTAINER</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">1:1 & CABINETS</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">CREDENTIAL</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">ED.D. DOCTORATE</div>
-            </div>
-            <div>
-              <div className="text-white/50 uppercase text-[10px] font-semibold">COHORT CAPACITY</div>
-              <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">LIMITED 15</div>
+          <div className="pt-6 border-t border-white/15 w-full">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 font-mono text-xs text-center">
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">CONTAINER</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">1:1 & CABINETS</div>
+              </div>
+              <div>
+                <div className="text-white/50 uppercase text-[10px] font-semibold">CREDENTIAL</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">ED.D. DOCTORATE</div>
+              </div>
+              <div className="col-span-2 md:col-span-1">
+                <div className="text-white/50 uppercase text-[10px] font-semibold">COHORT CAPACITY</div>
+                <div className="font-archivo text-xl sm:text-2xl font-bold text-white mt-0.5">LIMITED 15</div>
+              </div>
             </div>
           </div>
 
